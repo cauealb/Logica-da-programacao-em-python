@@ -35,3 +35,24 @@ Link dos trabalhos: [Aula de Variáveis](pythoncorse1/variaveis.py)
 [Aula de Coleções](pythoncorse1/colecoes.py)
 
 [Primeiro Exercício feito](pythoncorse1/projeto1.py)
+
+***
+
+# Dia 3: 20 de maio, 2024 (Terceiro dia)
+
+Progresso do dia: Está difícil, mas sinto que melhorei...
+
+Aprendizados: Está bem difíceis resolver problemas de lógica da programação, mas sinto que evolui, já nesses três dias, impressionante isso. Consigo entender bem o problema e executar metade dele (O mais importante é entender o problema).
+
+Não estou boa (AINDA!), mas estou melhorando muito nesses dias. Estou criando essa analise critíca que um programador executa, E logo logo, em dois meses, ninguém para eu.
+
+Acebei meus projetos do meu primeiro curso. Consegui fazer todos e com êxito, tive dificuldade mas consegui mesmo assim.
+
+Agora vou ficar resolvendo problemas usando a Programação com exercícios que o chatGPT está me fornecendo, e talvez eu fique uns 7 dias com esses exercícios, para eu consolidar esse senso analítico e começar a desenvolver minha lógica.
+
+Depois desses 7 dias, começarei outro curso, agora de "Estrutura de Dados", em inglês ;(
+
+Horas estudadas: 1 hora e 46 minutos
+
+Link dos trabalhos: [Segundo Projeto feito](pythoncorse1/projeto2.py)
+[Terceiro e último Projeto feito](pythoncorse1/projeto3.py)
