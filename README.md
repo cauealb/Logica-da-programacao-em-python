@@ -16,3 +16,22 @@ Nos próximos dias, vou começar a fazer exercícios de lógica da programação
 Hoje foi difícil, mas é o começo, quero mais e mais, sinto que não fiz nada, mas conforme os dias vão se passando, verei o quanto eu aprendi nesses dois meses de lógica da programação e matemática.
 
 Link do trabalho: [clique aqui](README.md)
+
+***
+
+# Dia 2: 19 de maio, 2024 (Segundo dia)
+
+Progresso do dia: Poucos, mas relevantes...
+
+Aprendizados: Hoje foi um dia bom, consegui solucionar 1 problema em python, e estudei tudo sobre python para corrigir erros (variáveis, condicionais, laçoes de repetição e coleções). Fiquei muito feliz, e contente comigo mesmo. Foi um pouco difícil, mas consegui. Sinto que evolui na minha lógica (mesmo que foi só um pouquinho), mas não é o bastante ainda. Fico imaginando, se eu fazer todos os isso que eu fiz hoje, o quando bom vou estar na minha lógica? E realmente, 2 meses para aprender o necessário sobre lógica e muitas coisas para minha jornada como programador, esse é um tempo perfeito.
+
+Em relação a algumas atividades pendentes que deixei no primeiro dia, fiz tudo! Atividades pendentes, fluxogramas pendentes... Hoje foi muito bom, mas ainda tenho que melhorar muito mais minha lógica
+
+Horas estudadas: 4 horas e 24 minutos.
+
+Link dos trabalhos: [Aula de Variáveis](pythoncorse1/variaveis.py)
+[Aula de Condicionais](pythoncorse1/condicionais.py)
+[Aula de Laçoes de Repetição](pythoncorse1/lacosderepeticao.py)
+[Aula de Coleções](pythoncorse1/colecoes.py)
+
+[Primeiro Exercício feito](pythoncorse1/projeto1.py)
