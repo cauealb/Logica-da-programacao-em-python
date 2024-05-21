@@ -30,8 +30,11 @@ Em relação a algumas atividades pendentes que deixei no primeiro dia, fiz tudo
 Horas estudadas: 4 horas e 24 minutos.
 
 Link dos trabalhos: [Aula de Variáveis](pythoncorse1/variaveis.py)
+
 [Aula de Condicionais](pythoncorse1/condicionais.py)
+
 [Aula de Laçoes de Repetição](pythoncorse1/lacosderepeticao.py)
+
 [Aula de Coleções](pythoncorse1/colecoes.py)
 
 [Primeiro Exercício feito](pythoncorse1/projeto1.py)
@@ -55,6 +58,7 @@ Depois desses 7 dias, começarei outro curso, agora de "Estrutura de Dados", em 
 Horas estudadas: 1 hora e 46 minutos
 
 Link dos trabalhos: [Segundo Projeto feito](pythoncorse1/projeto2.py)
+
 [Terceiro e último Projeto feito](pythoncorse1/projeto3.py)
 
 ***
@@ -73,6 +77,6 @@ No pain, no gain.
 
 Horas estudadas: 1 hora e 17 minutos
 
-Link dos trabalhos: [Primeior problema feito](pythoncorse1/Exercícios/exercicios1.py)
+Link dos trabalhos: [Primeiro problema feito](pythoncorse1/Exercícios/exercicios1.py)
 
 [Segundo problema feito](pythoncorse1/Exercícios/exercicio2.py)
