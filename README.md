@@ -56,3 +56,22 @@ Horas estudadas: 1 hora e 46 minutos
 
 Link dos trabalhos: [Segundo Projeto feito](pythoncorse1/projeto2.py)
 [Terceiro e último Projeto feito](pythoncorse1/projeto3.py)
+
+***
+
+# Dia 4: 20 de maio, 2024 (Quarto dia)
+
+Progresso do dia: Melhorando a cada dia...
+
+Gostei de mais do meu desempenho hoje, consegui resolver meu primeiro problema/exercício com a programação usando a lógica da programação, e sinto que estou melhorando bastate.
+
+Também resolvi o segundo problema, que era muito mais fácil do que o primeiro problema, e porque eu já tinha um connhecimento em fazer médias e calcular médias de números.
+
+Hoje estudei menos, porque hoje o computador vai ficar ocupado com outra pessoa, mas eu sempre vou tentar fazer pelo menos 1 hora de estudo, que é o mínimo.
+
+No pain, no gain.
+
+Horas estudadas: 1 hora e 17 minutos
+
+Link dos trabalhos: [Primeior problema feito](pythoncorse1/Exercícios/exercicios1.py)
+[Segundo problema feito](pythoncorse1/Exercícios/exercicio2.py)
