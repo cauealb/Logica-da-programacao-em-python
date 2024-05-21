@@ -59,7 +59,7 @@ Link dos trabalhos: [Segundo Projeto feito](pythoncorse1/projeto2.py)
 
 ***
 
-# Dia 4: 20 de maio, 2024 (Quarto dia)
+# Dia 4: 21 de maio, 2024 (Quarto dia)
 
 Progresso do dia: Melhorando a cada dia...
 
@@ -74,4 +74,5 @@ No pain, no gain.
 Horas estudadas: 1 hora e 17 minutos
 
 Link dos trabalhos: [Primeior problema feito](pythoncorse1/Exercícios/exercicios1.py)
+
 [Segundo problema feito](pythoncorse1/Exercícios/exercicio2.py)
