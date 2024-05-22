@@ -80,3 +80,29 @@ Horas estudadas: 1 hora e 17 minutos
 Link dos trabalhos: [Primeiro problema feito](pythoncorse1/Exercícios/exercicios1.py)
 
 [Segundo problema feito](pythoncorse1/Exercícios/exercicio2.py)
+
+***
+
+# Dia 5: 22 de maio, 2024 (Quinto dia)
+
+Progresso do dia: Dúvidas...
+
+Hoje mudei como vai ser meus estudos, antes fazia uma problema completo sobre o que eu tinha aprendido. Mas hoje testei uam forma que um integrante da comunidade de programadores que eu participo faz. Ele basicamente pega todos os tipos de exercícios de variáveis e faz problemas relacionados ao mesmo, desde os mais difíceis até os mais complexos. Achei interessante, e fui estudar.
+
+Testei esse método e peguei alguns exercícios difíceis em relação a variáveis, os priemeiros foram faceis, não sei se é por que estou bem consolidado nesse assunto, ou por que eram faceis mesmo, mas resolvi todas essas primeiras de boa.
+
+Agora estou em um problema que é relativamente mais difícil e demanda mais lógica e energia, eu quero esses, porque assim eu evoluo.
+
+Não terminei ele, mas acredito que terminarei ele amanhã, e amanhã também vou pegar mais problemas assim para eu resolver e depois eu fecho esses assunto de variavés e vou comerçar a segunda: as condicionais.
+
+Horas estudadas: 4 hora e 5 minutos
+
+Link dos trabalhos: [Exercício 1](exercíciosvariaveis/variavel1.py)
+
+[Exercício 2](exercíciosvariaveis/variavel2.py)
+
+[Exercício 3](exercíciosvariaveis/variavel3.py)
+
+[Exercício 4](exercíciosvariaveis/variavel4.py)
+
+[Exercício 5](exercíciosvariaveis/variavel5.py)
