@@ -109,7 +109,7 @@ Link dos trabalhos: [Exercício 1](exercíciosvariaveis/variavel1.py)
 
 ***
 
-# Dia 6: 22 de maio, 2024 (Sexto dia)
+# Dia 6: 23 de maio, 2024 (Sexto dia)
 
 Progresso do dia: Nada...
 
@@ -130,3 +130,19 @@ Link dos trabalhos: [Exercício 6](exercíciosvariaveis/variavel6.py)
 [Exercício 9](exercíciosvariaveis/variavel9.py)
 
 [Exercício 1 de condicionais](exerciciocondicionais/condicionais1.py)
+
+***
+
+# Dia 7: 24 de maio, 2024 (Sétimo dia)
+
+Progresso do dia: Fiz nada...
+
+Não consegui evoluir em nada em relação a lógica da programação, fiquei quase duas horas tentando resolver um exercícios que acho que é mais fácil que o meu primeiro exercício, que foi para imprimir se os número era primo ou não. Nesses dias, estou indo mal, não consegui evoluir em nada. Mas sei que se eu parar e desistir agora, nunca saberei com vou estar se eu tivesse persistido em mais 3 dias.
+
+Talvez seja a rotina dura que tenho que possa influênciar e deixar meu cerêbro mais cansado, acho que saberemos amanhã.
+
+Gosto muito de desenvolver códigos (Back-End), por isso, tenho que masterizer tudo nesses dois meses sobre lógica de programação, algoritmos e estrutura de dados.
+
+Horas estudadas: 1 horas e 50 minutos.
+
+Link dos trabalhos: [Exercício 10](exercíciosvariaveis/variavel10.py)
