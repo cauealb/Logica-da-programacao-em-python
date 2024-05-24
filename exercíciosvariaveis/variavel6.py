@@ -6,25 +6,40 @@
 # 4. Achar o maior e o menor número dessa lista
 
 # lista_maior = []
-# atual = num
-# if atual >= num
-#   lista_maior.append(atual)
+# maior = num
+# if maior >= num
+#   lista_maior.append(maior)
 
 import random
 
-numerosAleatorois1 = random.randint(1,100)
-numerosAleatorois2 = random.randint(1,100)
-numerosAleatorois3 = random.randint(1,100)
-numerosAleatorois4 = random.randint(1,100)
-numerosAleatorois5 = random.randint(1,100)
-numerosAleatorois6 = random.randint(1,100)
-numerosAleatorois7 = random.randint(1,100)
+numerosAleatorois1 = random.randint(1,15)
+numerosAleatorois2 = random.randint(1,15)
+numerosAleatorois3 = random.randint(1,15)
+numerosAleatorois4 = random.randint(1,15)
+numerosAleatorois5 = random.randint(1,15)
+numerosAleatorois6 = random.randint(1,15)
+numerosAleatorois7 = random.randint(1,15)
 
-lista = [4 , 5, 6 , 768 , 53 , 46 , 5 , 768 , 57]
+# lista = [5,4,76,8,4,5,47,7,6,4,7,6,2,]
 
-lista_maior = []
-# lista = [numerosAleatorois1, numerosAleatorois2, numerosAleatorois3, numerosAleatorois4, numerosAleatorois5, numerosAleatorois6, numerosAleatorois7]
+lista = [numerosAleatorois1, numerosAleatorois2, numerosAleatorois3, numerosAleatorois4, numerosAleatorois5, numerosAleatorois6, numerosAleatorois7]
+
+maior = 0
+menor = 1000000000000000000000000000000000000000000000000000000000000000000
+stop = True
 
 for num in lista:
-    if num > 0 and num < 1:
-        atual = num
+    if stop == True: 
+        maior = num  
+        stop = False 
+    if maior < num:
+        maior = num
+
+for num in lista:
+    if stop == True: 
+        menor = num  
+        stop = False
+    if menor > num:
+        menor = num  
+
+print('O maior número de uma lista é ', maior,' e o menor é ', menor)

@@ -106,3 +106,27 @@ Link dos trabalhos: [Exercício 1](exercíciosvariaveis/variavel1.py)
 [Exercício 4](exercíciosvariaveis/variavel4.py)
 
 [Exercício 5](exercíciosvariaveis/variavel5.py)
+
+***
+
+# Dia 6: 22 de maio, 2024 (Sexto dia)
+
+Progresso do dia: Nada...
+
+Hoje não sei se evolui muito, foi dado para mim muitos esxercícios faceis, e sem complicação. Não sei se isso é um indicativo que estou melhorando ou realmente peguei exerícios faceis.
+
+Acho que vou voltar ao meu sistema atual de resolução de problemas, por que mais sentido assim, mas posso pegar um exercícios ou outro de condicionais, laços de repetição...
+
+Peguei um exercício difícil que pode me dar muita experiência, e vou conseguir resolver ele só amanhã.
+
+Horas estudadas: 3 horas.
+
+Link dos trabalhos: [Exercício 6](exercíciosvariaveis/variavel6.py)
+
+[Exercício 7](exercíciosvariaveis/variavel7.py)
+
+[Exercício 8](exercíciosvariaveis/variavel8.py)
+
+[Exercício 9](exercíciosvariaveis/variavel9.py)
+
+[Exercício 1 de condicionais](exerciciocondicionais/condicionais1.py)
