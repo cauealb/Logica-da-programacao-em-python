@@ -1,45 +1,28 @@
 # Faça um algoritmo que leia três valores inteiros diferentes e imprima na tela os valores em ordem decrescente.
 
-# 1. Três valores inteiros diferentes
-# 2. Imprimir na tela os valores em ordem decrescente
-# 3. Três valores inteiros diferentes
-# 4. Receber o uma lista em ordem decrescente
+# 1. Três valores inteiros diferentes =========
+# 2. Imprimir na tela os valores em ordem decrescente ========
+# 3. Três valores inteiros diferentes =========
+# 4. Receber o uma lista em ordem decrescente =========
 
+acertou = False
+while acertou == False:
+    v1 = int(input('Qual seu primeiro número: '))
+    v2 = int(input('Qual seu segundo número: '))
+    v3 = int(input('Qual seu terceiro número: '))
 
-import random
-
-valor1 = random.randint(1,15)
-valor2 = random.randint(1,15)
-valor3 = random.randint(1,15)
-
-listanumeros = valor1, valor2, valor3
-
-lista = []
-aceito = False
-
-# valor1 = int(input('Digite o primeiro número: '))
-# valor2 = int(input('Digite o segundo número: '))
-# valor3 = int(input('Digite o terceiro número: '))
-
-for num in listanumeros:
-    if valor1 < valor2 and valor1 < valor3:
-        lista.append(valor1)
-        
+    if v1 < 0 or v2 < 0 or v3 < 0:
+        print('Os números não podem ser negativos!')
+    elif v1 == v2 or v1 == v3 or v2 == v3:
+        print('Os números não podem ser iguias!')
     else:
-        if valor2 < valor1 and valor2 < valor3:
-            lista.append(valor2)
-            continue
-        else:
-            valor3 < valor1 and valor3 < valor2
-            lista.append(valor3)
-    
-    
+        acertou = True
 
-    
-print(lista)
-print(valor1, valor2, valor3)
+lista = [v1, v2, v3]
 
+listadecrescente = sorted(lista, reverse=True)
+listacrescente = sorted(lista)
 
+print('Essa lista em ordem decrescente será assim: ', listadecrescente)
 
-
-
+print('Essa lista em ordem crescente será assim: ', listacrescente)

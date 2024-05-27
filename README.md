@@ -1,6 +1,7 @@
 # Logica-da-programacao-em-python
  *Aba destinada a documentar meu processo na lógica da programação.*
  **Começo: 18/05/2024**
+ 
  **Fim: 18/07/2024**
 
  # Dia 1: 18 de maio, 2024 (Primeiro dia)
@@ -144,5 +145,33 @@ Talvez seja a rotina dura que tenho que possa influênciar e deixar meu cerêbro
 Gosto muito de desenvolver códigos (Back-End), por isso, tenho que masterizer tudo nesses dois meses sobre lógica de programação, algoritmos e estrutura de dados.
 
 Horas estudadas: 1 horas e 50 minutos.
+
+Link dos trabalhos: [Exercício 10](exercíciosvariaveis/variavel10.py)
+
+***
+
+# Dia 8: 25 de maio, 2024 (Oitavo dia)
+
+Progresso do dia: Nada...
+
+Hoje praticamente fiz nada, foi pior que ontem, muitas distrações e problemas então não tive muito foco corrigir esse erro que estva corrijindo, mas faz parte, amannhã darei o meu melhor!
+
+Em relação ao problema que estava corrigindo, não consegui ainda, estou muito frustrado, mas um cara na minha comunidade me sugeriu resolver esse problema com o sorted() do python. Amanhã farei isso, estou com a cabeça expludindo por causa de exercício.
+
+Horas estudadas: 35 minutos.
+
+Link dos trabalhos: [Exercício 10](exercíciosvariaveis/variavel10.py)
+
+***
+
+# Dia 9: 26 de maio, 2024 (Nono dia)
+
+Progresso do dia: Feito...
+
+Consegui passar daquele problema difícil, foi muito gradificante ter passado por ele, por que é bem complicadinho.
+
+Lembrando que só resolvi esse problema por causa de uma cara de me sugeriu usar o sorted() do python para resolver esse problema, ficou bem mais fácil.
+
+Horas estudadas: 35 minutos.
 
 Link dos trabalhos: [Exercício 10](exercíciosvariaveis/variavel10.py)
