@@ -164,14 +164,20 @@ Link dos trabalhos: [Exercício 10](exercíciosvariaveis/variavel10.py)
 
 ***
 
-# Dia 9: 26 de maio, 2024 (Nono dia)
+# Dia 10: 27 de maio, 2024 (Décimo dia)
 
-Progresso do dia: Feito...
+Progresso do dia: Nada ainda...
 
-Consegui passar daquele problema difícil, foi muito gradificante ter passado por ele, por que é bem complicadinho.
+Consegui resolver alguns problemas, mas nada muito importante, quero melhorar mais e não estou achando o melhor caminho.
 
-Lembrando que só resolvi esse problema por causa de uma cara de me sugeriu usar o sorted() do python para resolver esse problema, ficou bem mais fácil.
+Pretendo hoje ou amanhã, mudar como faço minhas, meus estudos, organizar de uma forma mais estratégica para uma melhor performace.
 
-Horas estudadas: 35 minutos.
+Horas estudadas: 1h 10 minutos.
 
-Link dos trabalhos: [Exercício 10](exercíciosvariaveis/variavel10.py)
+Link dos trabalhos: [Exercício 1](Exercícios/exercicio1.py)
+
+[Exercício 2](Exercícios/exercicio2.py)
+
+[Exercício 3](Exercícios/exercicio3.py)
+
+***
