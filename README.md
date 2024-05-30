@@ -31,3 +31,31 @@ Link dos trabalhos: [Exercício 4](Exercícios/exercicio4.py)
 [Exercício 8](Exercícios/exercicio8.py)
 
 [Exercício 9](Exercícios/exercicio9.py)
+
+***
+
+# Dia 2: 30 de maio, 2024 (Segundo dia)
+
+Progresso do dia: Muito progresso...
+
+Hoje foi um dia de vitória, consegui resolver exercícios intermediários/dificeis, e gostei muito do meu desempenho.
+
+Hoje foi feriado e muitas distrações mas nada me parou, estou evoluindo mentalmente (codando e criando disciplina), estou melhorando de mais e estou percendo isso. Quando vou começar um código, estou pensando já em quais dados são de entrada, processamento e saída, o que tenho que fazer e cada dia, entendo melhor os problemas e como resolver.
+
+Isso será muito importante na minha jornade de Programador sem prátria, porque entenderei mais o que o meu clinte quer e já ter um esboço do que preciso fazer na minha mente.
+
+Como é bom voltar aos meu métodos, sem seguir passos de outras pessoas, isso é muito bom.
+
+Hoje também foi um dia de guerra, não consegui resolver um problema, porque por partes, não tinha entendido o que fazer e como fazer, então travei, até parei de codar e fazer uma outra coisa para esvaziar a mente e voltar melhor, mas não consegui, isso faz parte, alguns problemas eu vou resolver, outros não, isso não me abala. E isso é bom , porque crio mais um conhecimento de como resolver aquele problema nas outras vezes (quando eu vi a resolução eu tinha entendido).
+
+No final do dia, recomecei o meu curso de Lógica da programação e vou fazer problemas da internet e também os problemas desse curso, para eu estar mais afiado, e me preparar para as próximas etapas.
+
+Horas estudadas: Não contadas (+5h aproximadamente).
+
+Link dos trabalhos: [Exercício 10](Exercícios/exercicio10.py)
+
+[Exercício 11](Exercícios/exercicio11.py)
+
+[Exercício 12](Exercícios/exercicio12.py)
+
+[Exercício 13](Exercícios/exercicio13.py)
