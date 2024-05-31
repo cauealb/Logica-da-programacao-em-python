@@ -1,5 +1,6 @@
 # Logica-da-programacao-em-python
  *Aba destinada a documentar meu processo na lógica da programação.*
+
  **Começo: 29/05/2024**
  
  **Fim: 29/07/2024 (previsão)**
@@ -20,17 +21,17 @@ E uma dica para o Cauê do futuro, nunca pense como os outros.
 
 Horas estudadas: Não contadas.
 
-Link dos trabalhos: [Exercício 4](Exercícios/exercicio4.py)
+Link dos trabalhos: [Exercício 4](Exercícios/Sequencias4.py)
 
-[Exercício 5](Exercícios/exercicio5.py)
+[Exercício 5](Exercícios/Sequencias5.py)
 
-[Exercício 6](Exercícios/exercicio6.py)
+[Exercício 6](Exercícios/Sequencias6.py)
 
-[Exercício 7](Exercícios/exercicio7.py)
+[Exercício 7](Exercícios/Sequencias7.py)
 
-[Exercício 8](Exercícios/exercicio8.py)
+[Exercício 8](Exercícios/Sequencias8.py)
 
-[Exercício 9](Exercícios/exercicio9.py)
+[Exercício 9](Exercícios/Sequencias9.py)
 
 ***
 
@@ -52,10 +53,10 @@ No final do dia, recomecei o meu curso de Lógica da programação e vou fazer p
 
 Horas estudadas: Não contadas (+5h aproximadamente).
 
-Link dos trabalhos: [Exercício 10](Exercícios/exercicio10.py)
+Link dos trabalhos: [Exercício 10](Exercícios/Sequencias10.py)
 
-[Exercício 11](Exercícios/exercicio11.py)
+[Exercício 11](Exercícios/Sequencias11.py)
 
-[Exercício 12](Exercícios/exercicio12.py)
+[Exercício 12](Exercícios/Sequencias12.py)
 
-[Exercício 13](Exercícios/exercicio13.py)
+[Exercício 13](Exercícios/Sequencias13.py)
