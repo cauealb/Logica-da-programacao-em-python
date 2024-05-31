@@ -1,8 +1,8 @@
 # Logica-da-programacao-em-python
  *Aba destinada a documentar meu processo na lógica da programação.*
- **Começo: 18/05/2024**
+ **Começo: 29/05/2024**
  
- **Fim: 18/07/2024**
+ **Fim: 29/07/2024 (previsão)**
 
 # Dia 1: 29 de maio, 2024 (Primeiro dia)
 
