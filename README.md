@@ -60,3 +60,38 @@ Link dos trabalhos: [Exercício 10](Exercícios/Sequencias10.py)
 [Exercício 12](Exercícios/Sequencias12.py)
 
 [Exercício 13](Exercícios/Sequencias13.py)
+
+***
+
+# Dia 3: 01 de junho, 2024 (Terceiro dia)
+
+Progresso do dia: Pouco progresso..
+
+Tive pouco tempo de estudo, mas consegui adiantar muito coisa.
+
+Hoje fechei as aulas de Estruta Condicionais e fiz mais dois problemas dessa estrutura.
+
+Também revisei alguns exercícios que Estrutura Seuquencial, para fechar esse conteúdo e ir para o conteúdo que estou hoje, sinto que estou evoluindo mentalmente e cognitivamente, estou começando a pensar como um programador.
+
+Amanhã me aguarde, vou fechar 5 horas de exercícios e estudos e vou conometrar para eu provar. Me sinto muito motivado e nada vai me parar a não fechar esse conteúdo de lógica que eu sempre me esquivava. Ninguém me para.
+
+Horas estudadas: Não contadas.
+
+Link dos trabalhos: [Exercício 14](ExercíciosSequenciais1/Sequencias14.py)
+
+[Exercício 15](ExercíciosSequenciais1/Sequencias15.py)
+
+[Exercício 16](ExercíciosSequenciais1/Sequencias16.py)
+
+[Exercício 17](ExercíciosSequenciais1/Sequencias17.py)
+
+[Exercício 18](ExercíciosSequenciais1/Sequencias18.py)
+
+[Exercício 19](ExercíciosSequenciais1/Sequencias19.py)
+
+[Exercício 20](ExercíciosSequenciais1/Sequencias20.py)
+
+[Exercício 1](ExercicioCondicionais1/Condicionais1.py)
+
+[Exercício 1](ExercicioCondicionais1/Condicionais2.py)
+
