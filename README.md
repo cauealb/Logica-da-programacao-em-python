@@ -75,6 +75,8 @@ Também revisei alguns exercícios que Estrutura Seuquencial, para fechar esse c
 
 Amanhã me aguarde, vou fechar 5 horas de exercícios e estudos e vou conometrar para eu provar. Me sinto muito motivado e nada vai me parar a não fechar esse conteúdo de lógica que eu sempre me esquivava. Ninguém me para.
 
+Consegui de noite também resolver uns 5 problemas, antes não estava satisfeito com meu desempenho hoje, mas agora estou, tendo pouco tempo, tive uma ótima performace. I'm Back.
+
 Horas estudadas: Não contadas.
 
 Link dos trabalhos: [Exercício 14](ExercíciosSequenciais1/Sequencias14.py)
@@ -91,7 +93,17 @@ Link dos trabalhos: [Exercício 14](ExercíciosSequenciais1/Sequencias14.py)
 
 [Exercício 20](ExercíciosSequenciais1/Sequencias20.py)
 
-[Exercício 1](ExercicioCondicionais1/Condicionais1.py)
+[Exercício 1 (Condicionais)](ExercicioCondicionais1/Condicionais1.py)
 
-[Exercício 1](ExercicioCondicionais1/Condicionais2.py)
+[Exercício 2 (Condicionais)](ExercicioCondicionais1/Condicionais2.py)
+
+[Exercício 3 (Condicionais)](ExercicioCondicionais1/Condicionais3.py)
+
+[Exercício 4 (Condicionais)](ExercicioCondicionais1/Condicionais4.py)
+
+[Exercício 5 (Condicionais)](ExercicioCondicionais1/Condicionais5.py)
+
+[Exercício 6 (Condicionais)](ExercicioCondicionais1/Condicionais6.py)
+
+[Exercício 7 (Condicionais)](ExercicioCondicionais1/Condicionais7.py)
 
