@@ -107,3 +107,21 @@ Link dos trabalhos: [Exercício 14](ExercíciosSequenciais1/Sequencias14.py)
 
 [Exercício 7 (Condicionais)](ExercicioCondicionais1/Condicionais7.py)
 
+***
+
+# Dia 4: 02 de junho, 2024 (Quarto dia)
+
+Progresso do dia: ...
+
+Agora é antes das 12h e não consegui minhas 5 horas de estudos e só fiz 3 problemas, por conta de problemas aqui em casa.
+
+Prentendo mais tarde voltar e fechar as 5hrs!
+
+Horas estudadas: Não contadas.
+
+Link dos trabalhos: [Exercício 8](ExercicioCondicionais1/Condicionais8.py)
+
+[Exercício 15](ExercicioCondicionais1/Condicionais9.py)
+
+[Exercício 16](ExercicioCondicionais1/Condicionais10.py)
+
