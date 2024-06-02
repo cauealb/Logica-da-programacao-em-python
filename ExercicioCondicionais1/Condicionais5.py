@@ -10,5 +10,5 @@ if valor < produto:
     conta = produto - valor
     print(f'Dinheiro Insuficiente, faltam R${conta:.2f}')
 else:
-    troco = valor - produto
-    print(f'Troco: {troco:.2f}')
+    conta = valor - produto
+    print(f'Troco: {conta:.2f}')

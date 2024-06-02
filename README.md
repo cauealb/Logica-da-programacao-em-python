@@ -73,7 +73,7 @@ Hoje fechei as aulas de Estruta Condicionais e fiz mais dois problemas dessa est
 
 Também revisei alguns exercícios que Estrutura Seuquencial, para fechar esse conteúdo e ir para o conteúdo que estou hoje, sinto que estou evoluindo mentalmente e cognitivamente, estou começando a pensar como um programador.
 
-Amanhã me aguarde, vou fechar 5 horas de exercícios e estudos e vou conometrar para eu provar. Me sinto muito motivado e nada vai me parar a não fechar esse conteúdo de lógica que eu sempre me esquivava. Ninguém me para.
+Me sinto muito motivado e nada vai me parar a não fechar esse conteúdo de lógica que eu sempre me esquivava. Ninguém me para.
 
 Consegui de noite também resolver uns 5 problemas, antes não estava satisfeito com meu desempenho hoje, mas agora estou, tendo pouco tempo, tive uma ótima performace. I'm Back.
 
@@ -113,15 +113,27 @@ Link dos trabalhos: [Exercício 14](ExercíciosSequenciais1/Sequencias14.py)
 
 Progresso do dia: ...
 
-Agora é antes das 12h e não consegui minhas 5 horas de estudos e só fiz 3 problemas, por conta de problemas aqui em casa.
+Hoje foi um dia bom sabe, consegui resolver vários problemas, mas não tive muito tempo por causa que chegou pessoas em cas e também tive que fazer algumas tarefas aqui. Mas de resto consegui fazer muita coisa.
 
-Prentendo mais tarde voltar e fechar as 5hrs!
+Estou melhorando muito meu entendimento com Estruturas Condicionais, tô conseguindo entender muito como faz um Estrutura Condicional, qual é a Sintaxe, as características (And, or, not), sinto que sei agora o que vou fazer e o que estou fazendo quando entro em um estrutura de condição.
 
-Horas estudadas: Não contadas.
+Horas estudadas: 3 horas e 33 minutos.
 
 Link dos trabalhos: [Exercício 8](ExercicioCondicionais1/Condicionais8.py)
 
-[Exercício 15](ExercicioCondicionais1/Condicionais9.py)
+[Exercício 9](ExercicioCondicionais1/Condicionais9.py)
 
-[Exercício 16](ExercicioCondicionais1/Condicionais10.py)
+[Exercício 10](ExercicioCondicionais1/Condicionais10.py)
+
+[Exercício 11](ExercicioCondicionais1/Condicionais11.py)
+
+[Exercício 12](ExercicioCondicionais1/Condicionais12.py)
+
+[Exercício 13](ExercicioCondicionais1/Condicionais13.py)
+
+[Exercício 14](ExercicioCondicionais2/Condicionais1.py)
+
+[Exercício 15](ExercicioCondicionais2/Condicionais2.py)
+
+[Exercício 16](ExercicioCondicionais2/Condicionais3.py)
 
