@@ -137,3 +137,23 @@ Link dos trabalhos: [Exercício 8](ExercicioCondicionais1/Condicionais8.py)
 
 [Exercício 16](ExercicioCondicionais2/Condicionais3.py)
 
+***
+
+# Dia 5: 03 de junho, 2024 (Quinto dia)
+
+Progresso do dia: Muito Progresso...
+
+Hoje foi muito progresso. Fiz só 3 exercícios, mas eles me fizeram treinar minha lógica e minha habilidade em estrutura Condicional, no papel fiz pouca coisa, dando um zoom-out, melhorei demais.
+
+Tô conseguindo estruturar meus pensamentos de pouco em pouco, e fazer códigos extremamente eficientes e com uma lógica por trás, estou melhorando de mais meu arsenal cognitivo, pensando cada vez mais como um programador foda.
+
+E além de isso tudo, eu sei o que tô fazendo, sei o que eu tenho que fazer, fazendo uma lógica por trás daquele código, ou seja, minha lógica está melhorando extremamente rápido!!!!!
+
+Horas estudadas: Não contadas.
+
+Link dos trabalhos: [Exercício 8](ExercicioCondicionais1/Condicionais8.py)
+
+[Exercício 9](ExercicioCondicionais1/Condicionais9.py)
+
+[Exercício 10](ExercicioCondicionais1/Condicionais10.py)
+
