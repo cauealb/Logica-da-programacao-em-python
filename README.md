@@ -157,3 +157,15 @@ Link dos trabalhos: [Exercício 8](ExercicioCondicionais1/Condicionais8.py)
 
 [Exercício 10](ExercicioCondicionais1/Condicionais10.py)
 
+***
+
+# Dia 6: 04 de junho, 2024 (Sexto dia)
+
+Progresso do dia: Pouco progresso...
+
+Hoje foi pouco progresso, mas muito conhecimento adquirido, consegui aprender a como usar o DeBugger no VSCode, e isso tá facilitando muito para eu ver aonde estouo errando no meus códigos, isso dá muito produtividade, e fica muito fácil agora
+
+Horas estudadas: Não contadas.
+
+Link dos trabalhos: [Exercício 5](ExercicioCondicionais1/Condicionais5.py)
+
