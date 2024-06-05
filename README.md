@@ -169,3 +169,29 @@ Horas estudadas: Não contadas.
 
 Link dos trabalhos: [Exercício 5](ExercicioCondicionais1/Condicionais5.py)
 
+***
+
+# Dia 7: 05 de junho, 2024 (Sétimo dia)
+
+Progresso do dia: ...
+
+Hoje foi altos e baixos. Consegui fazer alguns problemas mas 2 tive bastante dificuldade, tanto que até errei o resultado final dos dois, tô pensando em deixar esse exercícios para serem resolvidos no final de semana, esse e mais outros que vou errar nessa semana, isso faz com que eu nn pare um um problema, e faço eles quando tenho mais tempo.
+
+Percebi hoje também que não estou tão afiado como eu pensava em Estruturas Condicionais, vou fazer mais alguns tutoriais de EC na internet e no meu próprio curso, dar uma estudada a mais e revisar mais, e principalmente fazer mais exercícios de EC.
+
+Preciso estar afiado nessas três partes da Lógica da Programação.
+
+Horas estudadas: Não contadas.
+
+Link dos trabalhos: [Exercício 6](ExercicioCondicionais1/Condicionais6.py)
+
+[Exercício 7](ExercicioCondicionais1/Condicionais7.py)
+
+[Exercício 8](ExercicioCondicionais1/Condicionais8.py)
+
+[Exercício 9](ExercicioCondicionais1/Condicionais9.py)
+
+[Exercício 10](ExercicioCondicionais1/Condicionais10.py)
+
+[Exercício 11](ExercicioCondicionais1/Condicionais11.py)
+
