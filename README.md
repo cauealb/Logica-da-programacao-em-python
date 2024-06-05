@@ -181,6 +181,8 @@ Percebi hoje também que não estou tão afiado como eu pensava em Estruturas Co
 
 Preciso estar afiado nessas três partes da Lógica da Programação.
 
+Estou planejando nesse final de semana também dar uma estudada a mais em git/github e VSCode, no VS, vou estudar atalhos e Mapear todo o VSCode, já o git/github, preciso aprender urguente, porque todo programador sabe usar o git/github (programador bom), vou ver coisas mais avançadas de Git (códigos do mesmo), e no github, vou ver como usar ele da melhor forma possível para ter o máximo de performace. Um dia vai ser destinado ao Git/GitHub, e outro destinado ao VSCode.
+
 Horas estudadas: Não contadas.
 
 Link dos trabalhos: [Exercício 6](ExercicioCondicionais1/Condicionais6.py)
