@@ -10,34 +10,31 @@
 # Escreva um algoritmo para ler a quantidade (em Kg) de morangos e a quantidade
 # (em Kg) de maças adquiridas e escreva o valor a ser pago pelo cliente.
 
-
-qtdMorango = int(input('Quantidades de Kilos: '))
-qtdMacas = int(input('Quantidades de Kilos: '))
-
+# Minha Resposta
+qtdMorango = int(input('Digite as quantidades de Morangos: '))
+qtdMacas = int(input('Digite as quantidades de Maçãs: '))
 
 if qtdMorango <= 5:
-    resultadoMo = qtdMorango * 2.5
-
+    qtdMorangoPrecos = qtdMorango * 2.5
 else:
-    resultadoMo = qtdMorango * 2.2
+    qtdMorangoPrecos = qtdMorango * 2.2
 
 if qtdMacas <= 5:
-    resultadoMa = qtdMacas * 1.8
-
+    qtdMacasPrecos = qtdMacas * 1.8
 else:
-    resultadoMa = qtdMacas * 2.5
+    qtdMacasPrecos = qtdMacas * 1.5
 
-soma = resultadoMo + resultadoMa
+total = qtdMorangoPrecos + qtdMacasPrecos
 
-
-if (qtdMacas + qtdMorango) > 8 or (resultadoMo + resultadoMa) > 25:
-    print('Parabéns, Você ganhou um desconto!!! \n')
-    desconto = soma - ((resultadoMo + resultadoMa) * 0.10)
+if (qtdMorango + qtdMacas) > 8 or (qtdMorangoPrecos + qtdMacasPrecos) > 25:
+    desconto = total - (total * 0.10)
     print(f'Valor a pagar: {desconto:.2f}')
 else:
-    print(f'Valor a pagar: {soma:.2f}')
+    print(f'Valor a pagar: {total:.2f}')
 
 
+
+# Minha Resposta
 morango = float(input("Digite quantos quilos de morango foram comprados: "))
 maca = float(input("Digite quantos quilos de maçã foram comprados: "))
 valor = 0
