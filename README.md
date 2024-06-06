@@ -93,19 +93,19 @@ Link dos trabalhos: [Exercício 14](ExercíciosSequenciais1/Sequencias14.py)
 
 [Exercício 20](ExercíciosSequenciais1/Sequencias20.py)
 
-[Exercício 1 (Condicionais)](ExercicioCondicionais1/Condicionais1.py)
+[Exercício 1 (Condicionais)](ExercicioCondicionais2/Condicionais1.py)
 
-[Exercício 2 (Condicionais)](ExercicioCondicionais1/Condicionais2.py)
+[Exercício 2 (Condicionais)](ExercicioCondicionais2/Condicionais2.py)
 
-[Exercício 3 (Condicionais)](ExercicioCondicionais1/Condicionais3.py)
+[Exercício 3 (Condicionais)](ExercicioCondicionais2/Condicionais3.py)
 
-[Exercício 4 (Condicionais)](ExercicioCondicionais1/Condicionais4.py)
+[Exercício 4 (Condicionais)](ExercicioCondicionais2/Condicionais4.py)
 
-[Exercício 5 (Condicionais)](ExercicioCondicionais1/Condicionais5.py)
+[Exercício 5 (Condicionais)](ExercicioCondicionais2/Condicionais5.py)
 
-[Exercício 6 (Condicionais)](ExercicioCondicionais1/Condicionais6.py)
+[Exercício 6 (Condicionais)](ExercicioCondicionais2/Condicionais6.py)
 
-[Exercício 7 (Condicionais)](ExercicioCondicionais1/Condicionais7.py)
+[Exercício 7 (Condicionais)](ExercicioCondicionais2/Condicionais7.py)
 
 ***
 
@@ -119,17 +119,17 @@ Estou melhorando muito meu entendimento com Estruturas Condicionais, tô consegu
 
 Horas estudadas: 3 horas e 33 minutos.
 
-Link dos trabalhos: [Exercício 8](ExercicioCondicionais1/Condicionais8.py)
+Link dos trabalhos: [Exercício 8](ExercicioCondicionais2/Condicionais8.py)
 
-[Exercício 9](ExercicioCondicionais1/Condicionais9.py)
+[Exercício 9](ExercicioCondicionais2/Condicionais9.py)
 
-[Exercício 10](ExercicioCondicionais1/Condicionais10.py)
+[Exercício 10](ExercicioCondicionais2/Condicionais10.py)
 
-[Exercício 11](ExercicioCondicionais1/Condicionais11.py)
+[Exercício 11](ExercicioCondicionais2/Condicionais11.py)
 
-[Exercício 12](ExercicioCondicionais1/Condicionais12.py)
+[Exercício 12](ExercicioCondicionais2/Condicionais12.py)
 
-[Exercício 13](ExercicioCondicionais1/Condicionais13.py)
+[Exercício 13](ExercicioCondicionais2/Condicionais13.py)
 
 [Exercício 14](ExercicioCondicionais2/Condicionais1.py)
 
@@ -151,11 +151,11 @@ E além de isso tudo, eu sei o que tô fazendo, sei o que eu tenho que fazer, fa
 
 Horas estudadas: Não contadas.
 
-Link dos trabalhos: [Exercício 8](ExercicioCondicionais1/Condicionais8.py)
+Link dos trabalhos: [Exercício 8](ExercicioCondicionais2/Condicionais8.py)
 
-[Exercício 9](ExercicioCondicionais1/Condicionais9.py)
+[Exercício 9](ExercicioCondicionais2/Condicionais9.py)
 
-[Exercício 10](ExercicioCondicionais1/Condicionais10.py)
+[Exercício 10](ExercicioCondicionais2/Condicionais10.py)
 
 ***
 
@@ -167,7 +167,7 @@ Hoje foi pouco progresso, mas muito conhecimento adquirido, consegui aprender a 
 
 Horas estudadas: Não contadas.
 
-Link dos trabalhos: [Exercício 5](ExercicioCondicionais1/Condicionais5.py)
+Link dos trabalhos: [Exercício 5](ExercicioCondicionais2/Condicionais5.py)
 
 ***
 
@@ -185,15 +185,34 @@ Estou planejando nesse final de semana também dar uma estudada a mais em git/gi
 
 Horas estudadas: Não contadas.
 
-Link dos trabalhos: [Exercício 6](ExercicioCondicionais1/Condicionais6.py)
+Link dos trabalhos: [Exercício 6](ExercicioCondicionais2/Condicionais6.py)
 
-[Exercício 7](ExercicioCondicionais1/Condicionais7.py)
+[Exercício 7](ExercicioCondicionais2/Condicionais7.py)
 
-[Exercício 8](ExercicioCondicionais1/Condicionais8.py)
+[Exercício 8](ExercicioCondicionais2/Condicionais8.py)
 
-[Exercício 9](ExercicioCondicionais1/Condicionais9.py)
+[Exercício 9](ExercicioCondicionais2/Condicionais9.py)
 
-[Exercício 10](ExercicioCondicionais1/Condicionais10.py)
+[Exercício 10](ExercicioCondicionais2/Condicionais10.py)
 
-[Exercício 11](ExercicioCondicionais1/Condicionais11.py)
+[Exercício 11](ExercicioCondicionais2/Condicionais11.py)
 
+***
+
+# Dia 8: 06 de junho, 2024 (Oitavo dia)
+
+Progresso do dia: ...
+
+Hoje terminei 4 problemas relativamente dificeis sobre Estrutura Condicional, achei que evolui um pouco ainda, mas não é o bastante para eu ir para a próxima fase, tenho que masterizar mais ainda minha Estruturas Condicionais. Pretendo ver mais tutorias do assunto e fazer mais díficeis, se tudo der certo, pretendo ir para a próxima fase semana que vem.
+
+Os exercícios que eu não tinha terminado ontem e que acabei errando no final, fiz todos eles, refiz tudo de novo e consegui resolve-los.
+
+Horas estudadas: Não contadas.
+
+Link dos trabalhos: [Exercício 10](ExercicioCondicionais2/Condicionais10.py)
+
+[Exercício 11](ExercicioCondicionais2/Condicionais11.py)
+
+[Exercício 12](ExercicioCondicionais2/Condicionais12.py)
+
+[Exercício 13](ExercicioCondicionais2/Condicionais13.py)
