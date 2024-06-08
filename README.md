@@ -216,3 +216,23 @@ Link dos trabalhos: [Exercício 10](ExercicioCondicionais2/Condicionais10.py)
 [Exercício 12](ExercicioCondicionais2/Condicionais12.py)
 
 [Exercício 13](ExercicioCondicionais2/Condicionais13.py)
+
+***
+
+# Dia 9: 07 de junho, 2024 (Oitavo dia)
+
+Progresso do dia: ...
+
+Um desses dias não cosegui estudar, então deixei tudo para hoje(ontem).
+
+Consegui fazer problemas bem legais e resolvi eles. Estava esquecendo da função not das estruturas condicionais, então desenvolvi ela nesses últimos exercícios, estava esquecendo mas lembrei e agora vou usar mais ela.
+
+Horas estudadas: Não contadas.
+
+Link dos trabalhos: [Exercício 14](ExercicioCondicionais2/Condicionais14.py)
+
+[Exercício 15](ExercicioCondicionais2/Condicionais15.py)
+
+[Exercício 16(não realizada)](ExercicioCondicionais2/Condicionais16.py)
+
+[Exercício 17](ExercicioCondicionais2/Condicionais17.py)
