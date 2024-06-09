@@ -17,52 +17,63 @@ pedra = 'Pedra'
 papel = 'Papel'
 tesoura = 'Tesoura'
 
-resposta = input('Vai jogar qual: ')
+ganhar = False
 
-# Empate
-if numero == 1 and resposta == 'Pedra':
-    print('Computador: Pedra')
-    print(f'Você: {pedra}')
-    print('Empate!')
-elif numero == 2 and resposta == 'Papel':
-    print('Computador: Papel')
-    print(f'Você: {papel}')
-    print('Empate!')
-elif numero == 3 and resposta == 'Tesoura':
-    print('Computador: Tesoura')
-    print(f'Você: {tesoura}')
-    print('Empate!')
+while ganhar == False:
 
-# Pedra
+    resposta = input('Vai jogar qual: ')
 
-if numero == 1 and resposta == 'Papel':
-    print('Computador: Pedra')
-    print(f'Você: {papel}')
-    print('Venceu!')
-elif resposta == 'Pedra' and numero == 2:
-    print('Computador: Papel')
-    print(f'Você: {pedra}')
-    print('Perdeu!')
+    # Empate
+    if numero == 1 and resposta == 'Pedra':
+        print('Computador: Pedra')
+        print(f'Você: {pedra}')
+        print('Empate!')
+        ganhar = True
+    elif numero == 2 and resposta == 'Papel':
+        print('Computador: Papel')
+        print(f'Você: {papel}')
+        print('Empate!')
+        ganhar = True
+    elif numero == 3 and resposta == 'Tesoura':
+        print('Computador: Tesoura')
+        print(f'Você: {tesoura}')
+        print('Empate!')
+        ganhar = True
 
-if numero == 1 and resposta == 'Tesoura':
-    print('Computador: Pedra')
-    print(f'Você: {tesoura}')
-    print('Perdeu!')
-elif resposta == 'Pedra' and numero == 3:
-    print('Computador: Tesoura')
-    print(f'Você: {pedra}')
-    print('Venceu!')
+    # Pedra
 
-# Papel
+    if numero == 1 and resposta == 'Papel':
+        print('Computador: Pedra')
+        print(f'Você: {papel}')
+        print('Venceu!')
+        ganhar = True
+    elif resposta == 'Pedra' and numero == 2:
+        print('Computador: Papel')
+        print(f'Você: {pedra}')
+        print('Perdeu!')
 
-if numero == 2 and resposta == 'Tesoura':
-    print('Computador: Papel')
-    print(f'Você: {tesoura}')
-    print('Venceu!')
-elif numero == 3 and resposta == 'Papel':
-    print('Computador: Tesoura')
-    print(f'Você: {papel}')
-    print('Perdeu!')
+    if numero == 1 and resposta == 'Tesoura':
+        print('Computador: Pedra')
+        print(f'Você: {tesoura}')
+        print('Perdeu!')
+    elif resposta == 'Pedra' and numero == 3:
+        print('Computador: Tesoura')
+        print(f'Você: {pedra}')
+        print('Venceu!')
+        ganhar = True
+        
+
+    # Papel
+
+    if numero == 2 and resposta == 'Tesoura':
+        print('Computador: Papel')
+        print(f'Você: {tesoura}')
+        print('Venceu!')
+        ganhar = True
+    elif numero == 3 and resposta == 'Papel':
+        print('Computador: Tesoura')
+        print(f'Você: {papel}')
+        print('Perdeu!')
 
 
 
