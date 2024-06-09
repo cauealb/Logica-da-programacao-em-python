@@ -79,13 +79,3 @@ match conta:
             print('Inteiro')
         else:
             print('Decimal')
-
-
-
-
-
-
-
-
-
-

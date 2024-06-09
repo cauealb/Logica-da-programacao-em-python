@@ -20,21 +20,18 @@ if num > 0 and num < 1000:
     # Unidade
         if uni > 1:
             print(f'{uni:.0f} unidades.')
-        elif uni == 0:
-            print(f'0 dezenas e')
         else:
             print(f'{uni:.0f} unidade.')
 
-    if num > 9 and num < 99:
+    elif num <= 99:
     # Dezenas
         if deze > 1:
-            print(f'{deze:.0f} dezenas e ')
+            print(f'{deze:.0f} dezenas e')
             
         elif deze == 0:
             print(f'0 dezenas e')
-            
         else:
-            print(f'{deze:.0f} dezena e ')
+            print(f'{deze:.0f} dezena e')
             
         if uni > 1:
             print(f'{uni:.0f} unidades.')
@@ -42,7 +39,7 @@ if num > 0 and num < 1000:
             print(f'{uni:.0f} unidade.')
 
 
-    if num > 100:
+    elif num >= 100:
     # Centenas
         if cente > 1:
             print(f'{cente:.0f} centenas, ')
@@ -53,11 +50,8 @@ if num > 0 and num < 1000:
         if deze > 1:
             print(f'{deze:.0f} dezenas e ')
 
-        elif deze == 0:
-            print(f'0 dezenas e')
-
         else:
-            print(f'{deze:.0f} dezena e ')
+            print(f'{deze:.0f} dezena e')
 
         if uni > 1:
             print(f'{uni:.0f} unidades.')

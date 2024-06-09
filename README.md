@@ -236,3 +236,25 @@ Link dos trabalhos: [Exercício 14](ExercicioCondicionais2/Condicionais14.py)
 [Exercício 16(não realizada)](ExercicioCondicionais2/Condicionais16.py)
 
 [Exercício 17](ExercicioCondicionais2/Condicionais17.py)
+
+***
+
+# Dia 10: 08 de junho, 2024 (Décimo dia)
+
+Progresso do dia: ...
+
+Hoje também não consegui fazer muita coisa, mas consegui evoluir, sinto que as questões que vou fazer parecem todas faceis ou eu já fiz alguma vez, ai, eu fico um tempão procurando questões que sejam desafiadora para mim.
+
+Acredito que isso seja um sinal, dizendo que as minha Estruturas Condicionais estão consolidadas, eu realmente acho isso, sinto que estou bem avançado nesse assunto, agora é afiar o machado na hora que eu for programar de fato, para ai, minhas estruturas condicionais irem para um outro nivel.
+
+Isso não quer dizer que vou parar de estudar esse assunto, talvez eu use ele nos próximos problemas, também vou revisar esse conteúdos depois de um tempo, então não vai ser nada perdido.
+
+Amanhã vou fechar Estruturas Condicionais com mais dois problemas e amanhã mesmo eu começo as Estruturas Repetitivas.
+
+Horas estudadas: Não contadas(mais de 3hrs e meia).
+
+Link dos trabalhos: [Exercício 16](ExercicioCondicionais2/Condicionais16.py)
+
+[Exercício 18](ExercicioCondicionais2/Condicionais18.py)
+
+[Exercício 19](ExercicioCondicionais2/Condicionais19.py)
