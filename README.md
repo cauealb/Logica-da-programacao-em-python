@@ -239,22 +239,16 @@ Link dos trabalhos: [Exercício 14](ExercicioCondicionais2/Condicionais14.py)
 
 ***
 
-# Dia 10: 08 de junho, 2024 (Décimo dia)
+# Dia 10: 10 de junho, 2024
 
 Progresso do dia: ...
 
-Hoje também não consegui fazer muita coisa, mas consegui evoluir, sinto que as questões que vou fazer parecem todas faceis ou eu já fiz alguma vez, ai, eu fico um tempão procurando questões que sejam desafiadora para mim.
+Hoje fui bem, consegui começar as estruturas repetitivas, sinto que vou ter mais dificuldade para fazeras ER, mas a cada dia fica mais fácil, como ficou a EC, estou no meio de um pproblemas que para mim é bastante complexo, mas acredito que amanhã eu termine ele, e olhe que estou meu nome segundo problema...
 
-Acredito que isso seja um sinal, dizendo que as minha Estruturas Condicionais estão consolidadas, eu realmente acho isso, sinto que estou bem avançado nesse assunto, agora é afiar o machado na hora que eu for programar de fato, para ai, minhas estruturas condicionais irem para um outro nivel.
+Como esses dias e não consegui fazer muita coisa, percebi que estava muito lento para pensar nas soluções, talvez seja isso, por isso que fazer todo dia é a melhor coisa. Essa semana vou pegar pesado e quero ver meu depoimento sexta, saberei que vou estar com minha cabeça de volta, aquela cabeça que pensa em todas as soluções e resolvi da melhor maneira, pensando com um programador excelente.
 
-Isso não quer dizer que vou parar de estudar esse assunto, talvez eu use ele nos próximos problemas, também vou revisar esse conteúdos depois de um tempo, então não vai ser nada perdido.
+Horas estudadas: 2 horas e 20 minutos.
 
-Amanhã vou fechar Estruturas Condicionais com mais dois problemas e amanhã mesmo eu começo as Estruturas Repetitivas.
+Link dos trabalhos: [Exercício 11](ExercíciosRepetitivos1/Repetitivos1.py)
 
-Horas estudadas: Não contadas(mais de 3hrs e meia).
-
-Link dos trabalhos: [Exercício 16](ExercicioCondicionais2/Condicionais16.py)
-
-[Exercício 18](ExercicioCondicionais2/Condicionais18.py)
-
-[Exercício 19](ExercicioCondicionais2/Condicionais19.py)
+[Exercício 2](ExercíciosRepetitivos1/Repetitivos2.py)
