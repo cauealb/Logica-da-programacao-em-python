@@ -249,6 +249,30 @@ Como esses dias e não consegui fazer muita coisa, percebi que estava muito lent
 
 Horas estudadas: 2 horas e 20 minutos.
 
-Link dos trabalhos: [Exercício 11](ExercíciosRepetitivos1/Repetitivos1.py)
+Link dos trabalhos: [Exercício 1](ExercíciosRepetitivos1/Repetitivos1.py)
 
 [Exercício 2](ExercíciosRepetitivos1/Repetitivos2.py)
+
+***
+
+# Dia 12: 11 e 12 de junho, 2024
+
+Progresso do dia: ...
+
+Dia 11 não consegui fazer praticamente nada, mas fiz algo, umas questões.
+
+Já hoje, consegui me aprofundar mais sobre as ER, estou evoluindo bem nessa matéria, só no final que travei em uma e não consegui, vou fechar ela amanhã e prosseguir. Mas sinto que evoluí bem no assunto, não sou o mesmo de segundo (dia que comecei as estruturas repetitivas) estou melhor nela.
+
+Mas estou ciente que vou precisar ficar um pouco mais nessa materia por ser mais díficil, por ser mais díficil pra mim e por ser um divisor de águas na lógica, ouvi falar que quando você tomina as ER, tudo mudo, tudo fica fácil de fazer por ter essa skill.
+
+Horas estudadas: Não contadas.
+
+Link dos trabalhos: [Exercício 3](ExercíciosRepetitivos1/Repetitivos3.py)
+
+[Exercício 4](ExercíciosRepetitivos1/Repetitivos4.py)
+
+[Exercício 5](ExercíciosRepetitivos1/Repetitivos5.py)
+
+[Exercício 6](ExercíciosRepetitivos1/Repetitivos6.py)
+
+[Exercício 7](ExercíciosRepetitivos1/Repetitivos7.py)
