@@ -297,5 +297,29 @@ Link dos trabalhos: [Exercício 7](ExercíciosRepetitivos1/Repetitivos(while)7.p
 
 [Exercício 10](ExercíciosRepetitivos1/Repetitivos(for)10.py)
 
+***
+
+# Dia 13: 13 de junho, 2024
+
+Progresso do dia: ...
+
+Estou sentindo que no looping 'for', estou indo bem, parece que na internet tem mais exercícios de 'for'. Então o que eu vou fazer para consolidar o 'while' na minha mente é pesquisar um exercícios que envolva o looping 'while.
+
+De resto, estou indo muit0 bem nas estruturas respetitivas, estou conseguindo entender os problemas e resolve-los da melhor maneira possível.
+
+Lembro que na segundo não estava entendendo nada de estruturas, e falei que sexta eu estaria craque já em ER, mas não basta ser craque, preciso ser excelente.
+
+Horas estudadas: Não contadas.
+
+Link dos trabalhos: [Exercício 11](ExercíciosRepetitivos1/Repetitivos(for)11.py)
+
+[Exercício 12](ExercíciosRepetitivos1/Repetitivos(for)12.py)
+
+[Exercício 13](ExercíciosRepetitivos1/Repetitivos(for)13.py)
+
+[Exercício 14](ExercíciosRepetitivos1/Repetitivos(for)14.py)
+
+[Exercício 15](ExercíciosRepetitivos1/Repetitivos(for)15.py)
+
 
 
