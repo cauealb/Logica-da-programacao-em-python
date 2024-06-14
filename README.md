@@ -276,3 +276,26 @@ Link dos trabalhos: [Exercício 3](ExercíciosRepetitivos1/Repetitivos3.py)
 [Exercício 6](ExercíciosRepetitivos1/Repetitivos6.py)
 
 [Exercício 7](ExercíciosRepetitivos1/Repetitivos7.py)
+
+***
+
+# Dia 13: 13 de junho, 2024
+
+Progresso do dia: ...
+
+Hoje senti que as ER, estão sendo consolidadas na minhas cabeça, estou conseguindo entender como funciona um looping e como fazer ele. 
+
+Sinto que ele está cada vez mais fácil na minha cabeça, e estou me sentindo mais confiante em fazer uma Estrutura Repetitiva.
+
+Horas estudadas: Não contadas.
+
+Link dos trabalhos: [Exercício 7](ExercíciosRepetitivos1/Repetitivos(while)7.py)
+
+[Exercício 8](ExercíciosRepetitivos1/Repetitivos(for)8.py)
+
+[Exercício 9](ExercíciosRepetitivos1/Repetitivos(for)9.py)
+
+[Exercício 10](ExercíciosRepetitivos1/Repetitivos(for)10.py)
+
+
+

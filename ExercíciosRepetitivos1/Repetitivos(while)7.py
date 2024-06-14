@@ -5,21 +5,21 @@ contador = 0
 
 while parar == True:
     num = int(input('Digite um número inteiro: '))
-    soma = num
 
     if num % 2 != 0:
         num += 1
+        soma = num
+    else:
+        soma = num
     
     if num == 0:
         break
 
-    while contador < 5:
-        num += 2
-        soma += num
-        contador += 1
+    while contador < 4:
+            num += 2
+            soma += num
+            contador += 1
 
     print(f'SOMA: {soma}')
-
-    # Não Terminado
 
 
