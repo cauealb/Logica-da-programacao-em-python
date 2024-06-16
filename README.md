@@ -321,5 +321,33 @@ Link dos trabalhos: [Exercício 11](ExercíciosRepetitivos1/Repetitivos(for)11.p
 
 [Exercício 15](ExercíciosRepetitivos1/Repetitivos(for)15.py)
 
+***
+
+# Dia 14 e 15: 14 e 15 de junho, 2024
+
+Progresso do dia: ...
+
+Ultimamente não estou conseguindo praticar muito, por outros fatores, mas estou fazendo todos os dias, e estou conseguindo, com dificuldade, mas estou conseguindo.
+
+Esse assunto de ER é mais complicado para mim, então preciso de mais tempo para consolidar ele. Mas estou fazendo todos os exercícios e acertando. De pouquinho em poquinho a gente vai conseguindo.
+
+Horas estudadas: Não contadas.
+
+Link dos trabalhos: [Exercício 1](ExercíciosRepetitivos2/Repetitivos(while)1.py)
+
+[Exercício 2](ExercíciosRepetitivos2/Repetitivos(while)2.py)
+
+[Exercício 3](ExercíciosRepetitivos2/Repetitivos(while)3.py)
+
+[Exercício 4](ExercíciosRepetitivos2/Repetitivos(while)4.py)
+
+[Exercício 5](ExercíciosRepetitivos2/Repetitivos(while)5.py)
+
+[Exercício 6](ExercíciosRepetitivos2/Repetitivos(for)6.py)
+
+[Exercício 7](ExercíciosRepetitivos2/Repetitivos(while)7.py)
+
+[Exercício 8](ExercíciosRepetitivos2/Repetitivos(for)8.py) (fazendo)
+
 
 
