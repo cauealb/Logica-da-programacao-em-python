@@ -12,6 +12,3 @@ print(
     f'A soma desses números: {total} \n'
     f'A média desses números: {media}'
 )
-
-
-# Não terminado

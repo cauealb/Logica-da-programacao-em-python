@@ -349,5 +349,32 @@ Link dos trabalhos: [Exercício 1](ExercíciosRepetitivos2/Repetitivos(while)1.p
 
 [Exercício 8](ExercíciosRepetitivos2/Repetitivos(for)8.py) (fazendo)
 
+***
+
+# Dia 14 e 15: 14 e 15 de junho, 2024
+
+Progresso do dia: ...
+
+Hoje foi um ótimo dia, consegui progrediar bastante no meu For, e como disse, preciso pegar, mais exercícios para fazer em while.
+
+Estou pensando em refazer todos esses exercícios, só que usando, só o while, vai dar muito mais trabalho e tempo, porque esses exercícios são pensados para usar o For, não o while, mas ainda estou pensando, fiz muita coisa ainda, e na próxima semana, tenho certeza que terminarei e essa disciplina e começar a próxima, Vetores!
+
+Horas estudadas: Não contadas.
+
+Link dos trabalhos: [Exercício 8](ExercíciosRepetitivos2/Repetitivos(for)8.py)
+
+[Exercício 9](ExercíciosRepetitivos2/Repetitivos(for)9.py)
+
+[Exercício 10](ExercíciosRepetitivos2/Repetitivos(for)10.py)
+
+[Exercício 11](ExercíciosRepetitivos2/Repetitivos(for)11.py)
+
+[Exercício 12](ExercíciosRepetitivos2/Repetitivos(for)12.py)
+
+[Exercício 13](ExercíciosRepetitivos2/Repetitivos(for)13.py)
+
+[Exercício 14](ExercíciosRepetitivos2/Repetitivos(for)14.py)
+
+[Exercício 15](ExercíciosRepetitivos2/Repetitivos(for)15.py)
 
 
