@@ -377,4 +377,30 @@ Link dos trabalhos: [Exercício 8](ExercíciosRepetitivos2/Repetitivos(for)8.py)
 
 [Exercício 15](ExercíciosRepetitivos2/Repetitivos(for)15.py)
 
+***
+
+# Dia 14 e 15: 14 e 15 de junho, 2024
+
+Progresso do dia: ...
+
+Hoje fiz muita coisa, evoluindo aos pouquinhos, sempre sinto que melhorando nas Estruturas de dados, estou pensando em quando ir para as estruturas de dados, começar com o JavaScript, ainda é um pensamento. Hoje foi muito bom por que os exercícios pedem o For e o While juntos, isso é bom que evoluio neles e ainda começo a aprender como utilizar os dois ao mesmo tempo.
+
+Nesses dias não consegui fazer muita coisa, pegaram meu computador e não consegui estudar muit, mas tento sempre o máximo fazer.
+
+Horas estudadas: Não contadas.
+
+Link dos trabalhos: [Exercício 16](ExercíciosRepetitivos2/Repetitivos(for)16.py)
+
+[Exercício 17](ExercíciosRepetitivos2/Repetitivos(for)17.py)
+
+[Exercício 18](ExercíciosRepetitivos2/Repetitivos(for)18.py)
+
+[Exercício 19](ExercíciosRepetitivos2/Repetitivos(for)19.py)
+
+[Exercício 20](ExercíciosRepetitivos2/Repetitivos(while)8.py)
+
+[Exercício 21](ExercíciosRepetitivos2/Repetitivos(while)9.py)
+
+[Exercício 22](ExercíciosRepetitivos2/Repetitivos1.py) (não terminado)
+
 

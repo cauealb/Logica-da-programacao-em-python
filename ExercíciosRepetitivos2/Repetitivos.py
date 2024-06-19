@@ -2,9 +2,13 @@
 
 nz = int(input('Digite seu N-ésima: '))
 x = 0
+parar = True
 
 for i in range(1, nz + 1):
-    print(i)
-    x += i
 
-# Não terminado
+    if parar == True:
+        print(i)
+        parar = False
+
+    
+    c = i + i
