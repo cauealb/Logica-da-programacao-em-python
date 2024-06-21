@@ -351,7 +351,7 @@ Link dos trabalhos: [Exercício 1](ExercíciosRepetitivos2/Repetitivos(while)1.p
 
 ***
 
-# Dia 14 e 15: 14 e 15 de junho, 2024
+# Dia 16 e 17: 16 e 17 de junho, 2024
 
 Progresso do dia: ...
 
@@ -379,7 +379,7 @@ Link dos trabalhos: [Exercício 8](ExercíciosRepetitivos2/Repetitivos(for)8.py)
 
 ***
 
-# Dia 14 e 15: 14 e 15 de junho, 2024
+# Dia 18 e 19: 18 e 19 de junho, 2024
 
 Progresso do dia: ...
 
@@ -401,6 +401,32 @@ Link dos trabalhos: [Exercício 16](ExercíciosRepetitivos2/Repetitivos(for)16.p
 
 [Exercício 21](ExercíciosRepetitivos2/Repetitivos(while)9.py)
 
-[Exercício 22](ExercíciosRepetitivos2/Repetitivos1.py) (não terminado)
+[Exercício 22](ExercíciosRepetitivos2/Repetitivos1.py) 
+
+***
+
+# Dia 20 e 21: 20 e 21 de junho, 2024
+
+Progresso do dia: ...
+
+Hoje foi um dia bom, fazendo os problemas e resolvendo, estou melhorando muito minha lógica com as estruturas Repetitivas, provavelmente essa será minha penultima semana com as ER, próxima semana já começo os vetores e também vou dar inicio as Estruturas de Dados.  
+
+Horas estudadas: Não contadas.
+
+Link dos trabalhos: [Exercício 23](ExercíciosRepetitivos2/Repetitivos(for)24.py)
+
+[Exercício 24](ExercíciosRepetitivos2/Repetitivos(for)25.py)
+
+[Exercício 25](ExercicioCondicionais2/)
+
+[Exercício 26](ExercíciosRepetitivos2/Repetitivos(for)26.py)
+
+[Exercício 27](ExercíciosRepetitivos2/Repetitivos(for)27.py)
+
+[Exercício 28](ExercíciosRepetitivos2/Repetitivos(while)11.py)
+
+[Exercício 29](ExercíciosRepetitivos2/Repetitivos(while)12.py)
+
+[Exercício 29](ExercíciosRepetitivos2/Repetitivos(while)13.py)
 
 
