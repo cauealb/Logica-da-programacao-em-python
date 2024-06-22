@@ -1,32 +1,25 @@
-# Uma academia deseja fazer um senso entre seus clientes para descobrir o mais
-# alto, o mais baixo, a mais gordo e o mais magro, para isto você deve fazer um
-# programa que pergunte a cada um dos clientes da academia seu código,
-# sua altura e seu peso.
+# Faça um programa que receba o valor de uma dívida e mostre uma tabela com os
+# seguintes dados: valor da dívida, valor dos juros, quantidade de parcelas e
+# valor da parcela.
 
-# O final da digitação de dados deve ser dada quando o usuário digitar 0 (zero)
-# no campo código.
+# Os juros e a quantidade de parcelas seguem a tabela abaixo:
+#     Quantidade de Parcelas  % de Juros sobre o valor inicial da dívida
+#     1       0
+#     3       10
+#     6       15
+#     9       20
+#     12      25
 
-# Ao encerrar o programa também deve ser informados os códigos e valores do
-# clente mais alto, do mais baixo, do mais gordo e do mais magro, além da média
-# das alturas e dos pesos dos clientes.
+# Exemplo de saída do programa:
+#Valor da Dívida   | Valor dos Juros| Quantidade de Parcelas | Valor da Parcela
+#     R$ 1.000,00     0               1                       R$  1.000,00
+#     R$ 1.100,00     100             3                       R$    366,00
+#     R$ 1.150,00     150             6                       R$    191,67
 
-from math import inf
-menor = inf
-maior = 0
 
 while True:
-    codigo = int(input('Digite o código do cliente: '))
-    while codigo != 0:
-        altura = int(input('Digite a altura do cliente: '))
-        peso = float(input('Digite o peso do cliente: '))
+    divida = float(input('Digite sua Divída: '))
 
-        if maior > altura:
-            maior = altura
-            codAl = codigo
-        if menor < altura:
-            menor = altura
-            codBai = codigo
+    print('|Valor da Dívida|Valor dos Juros|Quantidade de Parcelas|Valor da Parcela|')
 
-print(f'O código {codBai} tem a menor altura: {menor}')
-
-# Não terminado
+    linha1 = divida / 1
