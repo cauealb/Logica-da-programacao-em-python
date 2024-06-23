@@ -11,8 +11,6 @@ while parar == True:
 
     while num < 0 or num > 1000:
         num = int(input('Número inválido! Digite novamente: '))
-        if num > 0 and num < 1000:
-            break
 
     if num == 0:
         parar = False
