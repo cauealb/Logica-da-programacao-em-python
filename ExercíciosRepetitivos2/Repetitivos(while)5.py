@@ -1,23 +1,23 @@
 # Altere o programa anterior permitindo ao usuário informar as populações e as taxas de crescimento iniciais. Valide a entrada e permita repetir a operação.
 
 pa = int(input('Digite o número de habitantes no País A: \n'))
-while pa < 0:
+while pa <= 0:
     pa = int(input('Número inválido! Digite novamente: \n'))
 
 
 porA = int(input('Digite a porcentagem de crescimento no País A: \n'))
-while porA < 0:
+while porA <= 0:
     porA = int(input('Porcentagem inválido! Digite novamente: \n'))
 
 
 
 pb = int(input('Digite o número de habitantes no País B: \n'))
-while pb < 0:
+while pb <= 0:
     pb = int(input('Número inválido! Digite novamente: \n'))
 
 
 porB = int(input('Digite a porcentagem de crescimento no País B: \n'))
-while porB < 0:
+while porB <= 0:
     porB = int(input('Porcentagem inválido! Digite novamente: \n'))
 
 anos = 0
