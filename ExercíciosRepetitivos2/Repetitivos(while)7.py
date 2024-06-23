@@ -5,7 +5,7 @@ lista = []
 while cont < 5:
     cont += 1
     num = int(input('Digite um número: '))
-    total = lista.append(num)
+    lista.append(num)
 
 maior = max(lista)
 
