@@ -1,25 +1,26 @@
-# Faça um programa que receba o valor de uma dívida e mostre uma tabela com os
-# seguintes dados: valor da dívida, valor dos juros, quantidade de parcelas e
-# valor da parcela.
+# Desenvolver um programa para verificar a nota do aluno em uma prova com 10
+# questões, o programa deve perguntar ao aluno a resposta de cada questão e ao
+# final comparar com o gabarito da prova e assim calcular o total de acertos e a
+# nota (atribuir 1 ponto por resposta certa).
 
-# Os juros e a quantidade de parcelas seguem a tabela abaixo:
-#     Quantidade de Parcelas  % de Juros sobre o valor inicial da dívida
-#     1       0
-#     3       10
-#     6       15
-#     9       20
-#     12      25
+# Após cada aluno utilizar o sistema deve ser feita uma pergunta se outro aluno
+# vai utilizar o sistema.
 
-# Exemplo de saída do programa:
-#Valor da Dívida   | Valor dos Juros| Quantidade de Parcelas | Valor da Parcela
-#     R$ 1.000,00     0               1                       R$  1.000,00
-#     R$ 1.100,00     100             3                       R$    366,00
-#     R$ 1.150,00     150             6                       R$    191,67
+# Após todos os alunos terem respondido informar:
+#     Maior e Menor Acerto;
+#     Total de Alunos que utilizaram o sistema;
+#     A Média das Notas da Turma.
+#     Gabarito da Prova:
+#         01 - A
+#         02 - B
+#         03 - C
+#         04 - D
+#         05 - E
+#         06 - E
+#         07 - D
+#         08 - C
+#         09 - B
+#         10 - A
 
-
-while True:
-    divida = float(input('Digite sua Divída: '))
-
-    print('|Valor da Dívida|Valor dos Juros|Quantidade de Parcelas|Valor da Parcela|')
-
-    linha1 = divida / 1
+# Após concluir isto você poderia incrementar o programa permitindo que o
+# professor digite o gabarito da prova antes dos alunos usarem o programa.
