@@ -1,26 +1,71 @@
-# Desenvolver um programa para verificar a nota do aluno em uma prova com 10
-# questões, o programa deve perguntar ao aluno a resposta de cada questão e ao
-# final comparar com o gabarito da prova e assim calcular o total de acertos e a
-# nota (atribuir 1 ponto por resposta certa).
+# Em uma competição de salto em distância cada atleta tem direito a cinco saltos.
+# No final da série de saltos de cada atleta, o melhor e o pior resultados são
+# eliminados.
 
-# Após cada aluno utilizar o sistema deve ser feita uma pergunta se outro aluno
-# vai utilizar o sistema.
+# O seu resultado fica sendo a média dos três valores restantes.
+# Você deve fazer um programa que receba o nome e as cinco distâncias alcançadas
+# pelo atleta em seus saltos e depois informe a média dos saltos conforme a
+# descrição acima informada (retirar o melhor e o pior salto e depois
+# calcular a média).
 
-# Após todos os alunos terem respondido informar:
-#     Maior e Menor Acerto;
-#     Total de Alunos que utilizaram o sistema;
-#     A Média das Notas da Turma.
-#     Gabarito da Prova:
-#         01 - A
-#         02 - B
-#         03 - C
-#         04 - D
-#         05 - E
-#         06 - E
-#         07 - D
-#         08 - C
-#         09 - B
-#         10 - A
+# Faça uso de uma lista para armazenar os saltos.
+# Os saltos são informados na ordem da execução, portanto não são ordenados.
+# O programa deve ser encerrado quando não for informado o nome do atleta.
+# A saída do programa deve ser conforme o exemplo abaixo:
+#     Atleta: Rodrigo Curvêllo
 
-# Após concluir isto você poderia incrementar o programa permitindo que o
-# professor digite o gabarito da prova antes dos alunos usarem o programa.
+#     Primeiro Salto: 6.5 m
+#     Segundo Salto: 6.1 m
+#     Terceiro Salto: 6.2 m
+#     Quarto Salto: 5.4 m
+#     Quinto Salto: 5.3 m
+
+#     Melhor salto:  6.5 m
+#     Pior salto: 5.3 m
+#     Média dos demais saltos: 5.9 m
+
+#     Resultado final:
+#     Rodrigo Curvêllo: 5.9 m
+
+from math import inf
+
+total = 0
+lista = []
+valorMax = 0
+valorMin = inf
+cont = 0
+while True:
+    atleta = input('Nome do Atleta: ')
+    if atleta != '':
+        for i in range(1, 6):
+            
+            salto = input('Digite os saltos: ')
+
+            if salto != '':
+                lista.append(salto)
+            else:
+                break
+
+            valorMax = max(lista)
+            valorMin = min(lista)
+
+            listaNova = [x for x in lista if x != valorMax and x != valorMin]
+    else:
+        break
+
+for i in listaNova:
+    total += i
+    cont += 1
+
+media = total / cont
+
+print(f'Melhor salto: {valorMax} m\n'
+      f'Pior salto: {valorMin} m\n'
+      f'Média: {media} m\n'
+)
+
+print(f'\nResultado final:\n'
+      f'{atleta}: {media} m'
+
+)
+
