@@ -25,7 +25,7 @@
 #     Média: 9,04
 
 lista = []
-totalSemMax = totalSemMin = 0
+totalSemMax = totalSemMin = total = 0
 
 atleta = input('Atleta: ')
 for y in range(1, 8):
@@ -39,3 +39,16 @@ for y in range(1, 8):
 max = max(lista)
 min = min(lista)
 listaNova = [x for x in lista if x != max and x != min]
+
+for i in listaNova:
+    total += i
+
+media = total / len(listaNova)
+
+print('\nResultado Final:\n')
+
+print(f'Atleta: {atleta}\n'
+      f'Melhor nota: {max}\n'
+      f'Pior nota: {min}\n'
+      f'Média: {media:.1f}\n'
+)
