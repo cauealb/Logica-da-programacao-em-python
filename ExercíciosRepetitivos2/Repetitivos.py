@@ -1,71 +1,41 @@
-# Em uma competição de salto em distância cada atleta tem direito a cinco saltos.
-# No final da série de saltos de cada atleta, o melhor e o pior resultados são
-# eliminados.
+# Em uma competição de ginástica, cada atleta recebe votos de sete jurados.
+# A melhor e a pior nota são eliminadas.
+# A sua nota fica sendo a média dos votos restantes.
 
-# O seu resultado fica sendo a média dos três valores restantes.
-# Você deve fazer um programa que receba o nome e as cinco distâncias alcançadas
-# pelo atleta em seus saltos e depois informe a média dos saltos conforme a
-# descrição acima informada (retirar o melhor e o pior salto e depois
-# calcular a média).
+# Você deve fazer um programa que receba o nome do ginasta e as notas dos sete
+# jurados alcançadas pelo atleta em sua apresentação e depois informe a sua
+# média, conforme a descrição acima informada (retirar o melhor e o pior salto e
+# depois calcular a média com as notas restantes).
 
-# Faça uso de uma lista para armazenar os saltos.
-# Os saltos são informados na ordem da execução, portanto não são ordenados.
-# O programa deve ser encerrado quando não for informado o nome do atleta.
-# A saída do programa deve ser conforme o exemplo abaixo:
-#     Atleta: Rodrigo Curvêllo
-
-#     Primeiro Salto: 6.5 m
-#     Segundo Salto: 6.1 m
-#     Terceiro Salto: 6.2 m
-#     Quarto Salto: 5.4 m
-#     Quinto Salto: 5.3 m
-
-#     Melhor salto:  6.5 m
-#     Pior salto: 5.3 m
-#     Média dos demais saltos: 5.9 m
+# As notas não são informados ordenadas.
+# Um exemplo de saída do programa deve ser conforme o exemplo abaixo:
+#     Atleta: Aparecido Parente
+#     Nota: 9.9
+#     Nota: 7.5
+#     Nota: 9.5
+#     Nota: 8.5
+#     Nota: 9.0
+#     Nota: 8.5
+#     Nota: 9.7
 
 #     Resultado final:
-#     Rodrigo Curvêllo: 5.9 m
+#     Atleta: Aparecido Parente
+#     Melhor nota: 9.9
+#     Pior nota: 7.5
+#     Média: 9,04
 
-from math import inf
-
-total = 0
 lista = []
-valorMax = 0
-valorMin = inf
-cont = 0
-while True:
-    atleta = input('Nome do Atleta: ')
-    if atleta != '':
-        for i in range(1, 6):
-            
-            salto = input('Digite os saltos: ')
+totalSemMax = totalSemMin = 0
 
-            if salto != '':
-                lista.append(salto)
-            else:
-                break
+atleta = input('Atleta: ')
+for y in range(1, 8):
+    nota = float(input(f'NOTA {y}: '))
 
-            valorMax = max(lista)
-            valorMin = min(lista)
+    while nota <= 0:
+        nota = float(input('Nota menor ou igual a 0! Digite novamente: '))
 
-            listaNova = [x for x in lista if x != valorMax and x != valorMin]
-    else:
-        break
+    lista.append(nota)
 
-for i in listaNova:
-    total += i
-    cont += 1
-
-media = total / cont
-
-print(f'Melhor salto: {valorMax} m\n'
-      f'Pior salto: {valorMin} m\n'
-      f'Média: {media} m\n'
-)
-
-print(f'\nResultado final:\n'
-      f'{atleta}: {media} m'
-
-)
-
+max = max(lista)
+min = min(lista)
+listaNova = [x for x in lista if x != max and x != min]
