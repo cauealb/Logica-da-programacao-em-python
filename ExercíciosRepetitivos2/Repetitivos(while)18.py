@@ -97,3 +97,6 @@ print(f'\nA média das notas são: {media}\n'
       f'A maior nota foi de {maior} ponto(s)\n'
       f'A menor nota foi de {menor} ponto(s)\n'
 )
+
+# Notação Big O
+# O(n)

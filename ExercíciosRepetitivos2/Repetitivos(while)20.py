@@ -75,3 +75,7 @@ print(f'\nResultado final:\n'
 
 )
 
+
+# Notação Big O
+# O (n)
+

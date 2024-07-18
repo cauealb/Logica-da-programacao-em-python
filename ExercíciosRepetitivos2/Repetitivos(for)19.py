@@ -33,3 +33,7 @@ for i in range(2, numero):
         print(f"{numero} não é primo! É divisível por {i}.")
 if primo:
     print(f"{numero} é primo!")
+
+
+# Notação Big O
+# 

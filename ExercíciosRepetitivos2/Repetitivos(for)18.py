@@ -28,3 +28,7 @@ for i in range(2, numero):
         break
 if primo:
     print(f"{numero} é primo!")
+
+
+# Notação Big O
+# O(1) 
