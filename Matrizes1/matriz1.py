@@ -20,3 +20,6 @@ for ml in range(n):
 
 
 print(f'\nQuantidade de Negativos: {contMenos}')
+
+#Nootação Big O
+# O (n^2)

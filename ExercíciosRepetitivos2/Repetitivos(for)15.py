@@ -16,3 +16,4 @@ print(
     f'\nPares: {len(listaPar)}\n'
     f'\nImpares: {len(listaImpar)}\n'
 )
+
