@@ -86,7 +86,7 @@ function linkedList(){
         const node = new Node(elem)
 
         let currentNode = head;
-        let currentIndex = -1;
+        let currentIndex = 0;
         let previusNode;
 
         if(index > lenght){
@@ -101,9 +101,11 @@ function linkedList(){
                 previusNode = currentNode.elem
                 currentNode = currentNode.next
             }
-            
+            node.next = currentNode
+            previusNode.next = node
 
         }
+        lenght++
     }
 
 }
