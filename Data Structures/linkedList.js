@@ -7,15 +7,15 @@ function linkedList(){
     const Node = function(elem){
         this.elem = elem;
         this.next = null;
-    }
+    };
 
     this.size = function(){
         return length
-    }
+    };
 
     this.head = function(){
         return head
-    }
+    };
 
     this.add = function(){
 
@@ -31,7 +31,7 @@ function linkedList(){
         }
         
         lenght++
-    }
+    };
 
 
     this.remove = function(elem){
@@ -49,7 +49,7 @@ function linkedList(){
 
         }
         lenght--
-    }
+    };
 
     this.isEmpty = function(){
         return lenght === 0
@@ -82,5 +82,28 @@ function linkedList(){
         return currentNode.elem
     };
 
+    this.Addind = function(index, elem){
+        const node = new Node(elem)
+
+        let currentNode = head;
+        let currentIndex = -1;
+        let previusNode;
+
+        if(index > lenght){
+            return false
+        }
+        if(index === 0){
+            node.next = currentNode
+            head = node
+        }else{
+            while(currentIndex < index){
+                currentIndex++
+                previusNode = currentNode.elem
+                currentNode = currentNode.next
+            }
+            
+
+        }
+    }
 
 }
