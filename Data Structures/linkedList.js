@@ -33,24 +33,54 @@ function linkedList(){
         lenght++
     }
 
+
     this.remove = function(elem){
+
         let currentNode = head
         let previusNode;
         if(currentNode.elem === elem){
             currentNode.next = head
         }else{
-            while(currentNode.next != elem){
-                previusNode = currentNode.elem
+            while(currentNode.elem != elem){
+                previusNode = currentNode
+                currentNode = currentNode.next
+            }
+            previusNode.next = currentNode.next
+
+        }
+        lenght--
+    }
+
+    this.isEmpty = function(){
+        return lenght === 0
+    };
+
+    this.indexOf = function(elem){
+        let currentNode = head;
+        let index = -1;
+
+        while(currentNode){
+            index++
+            if(currentNode.elem === elem){
+                return index;
+            }else{
                 currentNode = currentNode.next
             }
             
-            
         }
-    }
+        return -1;
+    };
 
+    this.ElemIndex = function(value){
+        let currentNode = head
+        let cont = -1
+
+        while(cont < value){
+            cont++
+            currentNode = currentNode.next
+        }
+        return currentNode.elem
+    };
 
 
 }
-
-
-linkedList.elem(e)
