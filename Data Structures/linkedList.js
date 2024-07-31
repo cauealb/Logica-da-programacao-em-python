@@ -147,9 +147,63 @@ function myLinkedList(){
         let currentNode = head
         let anterior;
         if(currentNode === elem){
-
+            currentNode.next = head
         }else{
-            
+            while(currentNode.elem != elem){
+                anterior = currentNode
+                currentNode = currentNode.next
+            }
+            anterior.next = currentNode.next
+            currentNode = currentNode.next
+        }
+        lenght--
+    }
+
+    this.void = function(){
+        return lenght === 0
+    }
+
+
+    this.serchIndex = function(elem){
+        let currentNode = this.head
+        let index = -1
+        while(currentNode){
+            index++
+            if(currentNode.elem = elem){
+                return index
+            }else{
+                currentNode = currentNode.next
+            }
+        }
+       return -1 
+    }
+
+
+    this.elemSearch = function(index){
+        let currentNode = head
+        let cont = -1;
+        while(cont < index){
+            cont++
+            currentNode = currentNode.next
+        }
+        return currentNode.elem
+    }
+
+
+    this.addind = function(index, elem){
+        let node = new node(elem)
+        let currentNode = head
+        let anterior
+        let cont = -1
+
+        if(index === 0){
+            node.next = currentNode
+            head = node
+        }else{
+            while(cont < index){
+                cont++
+                
+            }
         }
     }
 
