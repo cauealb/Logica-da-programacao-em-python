@@ -133,6 +133,18 @@ function myLinkedList(){
         }
         this.length-- 
     }
+
+    this.Print = function(){
+        let currentNode = this.head
+        if(!currentNode){
+            return false
+        }else{
+            while(currentNode){
+                console.log(currentNode.elem)
+                currentNode = currentNode.next
+        }
+    }
+}
 }
 
 const list = new myLinkedList()
@@ -141,6 +153,4 @@ list.push('Cauê')
 list.push('Alves')
 list.push('Barreto')
 
-list.removeind(1)
-
-console.log(list.head())
+list.Print()
