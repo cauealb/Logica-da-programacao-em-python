@@ -109,3 +109,48 @@ function linkedList(){
     }
 
 }
+
+function myLinkedList(){
+    this.lenght = 0;
+    this.head = null;
+
+    function laco(elment){
+        this.elem = this.elem
+        this.next = this.next
+    };
+
+    this.size = function(){
+        return lenght
+    };
+
+    this.head = function(){
+        return head
+    };
+
+
+    this.add = function(elem){
+        let node = new laco(elem)
+
+        if(head === null){
+            node = head
+        }else{
+            let currentNode = this.head
+            while(currentNode){
+                currentNode = currentNode.next
+            }
+            currentNode = node
+        }
+        lenght++
+    };
+
+    this.remove = function(elem){
+        let currentNode = head
+        let anterior;
+        if(currentNode === elem){
+
+        }else{
+            
+        }
+    }
+
+}
