@@ -128,20 +128,20 @@ function myLinkedList(){
     };
 
 
-    this.add = function(elem){
-        let node = new laco(elem)
+    this.push = function(elem){
+        let node = new node(elem)
+        let currentNode = head
 
-        if(head === null){
-            node = head
+        if(head = null){
+            head = node
         }else{
-            let currentNode = this.head
-            while(currentNode){
+            while(currentNode.next){
                 currentNode = currentNode.next
             }
-            currentNode = node
+            currentNode.next = node
         }
         lenght++
-    };
+    }
 
     this.remove = function(elem){
         let currentNode = head
@@ -193,7 +193,7 @@ function myLinkedList(){
     this.addind = function(index, elem){
         let node = new node(elem)
         let currentNode = head
-        let anterior
+        let ponteiro
         let cont = -1
 
         if(index === 0){
@@ -202,9 +202,13 @@ function myLinkedList(){
         }else{
             while(cont < index){
                 cont++
-                
+                ponteiro = currentNode
+                currentNode = currentNode.next
             }
+            node.next = currentNode
+            ponteiro.next = node
         }
+        lenght++
     }
 
 }
