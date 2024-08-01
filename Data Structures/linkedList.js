@@ -178,50 +178,74 @@ function myLinkedList(){
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-function doublyLinkedList(){
-    this.length = 0;
-    this.head = null;
-
-    function Node(elem, next, last){
+class Node {
+    constructor(elem){
         this.elem = elem;
+        this.prev = null;
         this.next = null;
-        this.last = last;
+    }
+}
+
+class doublyLinkedList{
+    constructor(){
+        this.head = null
+        this.length = 0
     }
 
-    this.size = function(){
-        return console.log(this.length)
+    addFirst(elem){
+        const node = new Node(elem);
+        node.nex = this.head
+        if(this.head){
+            this.head.prev = node
+        }
+        this.head = node
+        this.length++    
     }
 
-    this.push = function(elem){
+    addLast(elem){
+        const node = new Node(elem)
         if(!this.head){
-            let node = new Node(elem, null, this.head)
+            this.head = node
         }else{
             let currentNode = this.head
-            let last = currentNode
             while(currentNode.next){
-                let prev = currentNode
                 currentNode = currentNode.next
             }
-            let node = new Node(elem, null, last)
+
+            node.prev = currentNode
+            currentNode.next = node
         }
         this.length++
     }
 
-    this.print = function(){
-        if(this.length === 0){
+    addAt(index, elem){
+        if(index < this.length || index > this.length){
             return false
         }
+        if(index === 0){
+            const node = new Node(elem)
+            node.next = this.head
+            if(this.head){
+                this.head.prev = node
+                this.head = node
+                return
+            }
+            
         let currentNode = this.head
-        while(currentNode){
-            console.log(currentNode.elem)
-            currentNode = currentNode.nex
+        for(let i = 0; i < index; i++){
+            let pointer = currentNode
+            currentNode = currentNode.next
         }
+
+        pointer.next = node
+        node.prev = pointer
+
+        currentNode.prev = node
+        node.next = currentNode
     }
+
 }
 
 const list = new doublyLinkedList()
 
-list.push(3)
-list.push(5)
 
-list.print()
