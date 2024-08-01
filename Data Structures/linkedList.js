@@ -222,30 +222,79 @@ class doublyLinkedList{
         if(index < this.length || index > this.length){
             return false
         }
+        const node = new Node(elem)
         if(index === 0){
-            const node = new Node(elem)
-            node.next = this.head
             if(this.head){
                 this.head.prev = node
-                this.head = node
-                return
             }
-            
+            this.head = node
+
+        }else{
+            let currentNode = this.head
+            let pointer = null
+            for(let i = 0; i < index; i++){
+                pointer = currentNode
+                currentNode = currentNode.next
+            }
+
+            pointer.next = node
+            node.prev = pointer
+            node.next = currentNode
+            if(currentNode){
+                currentNode.prev = node
+            }
+        }
+        
+        this.length++
+    }
+
+    removeFist(){
+        if(!this.head){
+            return false
+        }
+
+        this.head = this.head.next;
+        if(this.head){
+            this.head = this.head.prev
+        }
+        this.length--
+    }
+
+    removeLast(){
+        if(!this.head){
+            return false
+        }
+        if(!this.head.next){
+            this.head = null
+        }
+
         let currentNode = this.head
-        for(let i = 0; i < index; i++){
-            let pointer = currentNode
+        while(currentNode.next.next){
             currentNode = currentNode.next
         }
 
-        pointer.next = node
-        node.prev = pointer
-
-        currentNode.prev = node
-        node.next = currentNode
+        currentNode.next = null
+        currentNode.next.prev = null
     }
 
+
+
+
+
+
+    print(){
+        let currentNode = this.head
+
+        while(currentNode){
+            console.log(currentNode.elem)
+            currentNode = currentNode.next
+        }
+    }
 }
 
 const list = new doublyLinkedList()
 
+list.addFirst('Cauê')
 
+
+list.print()
