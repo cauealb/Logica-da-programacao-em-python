@@ -145,12 +145,83 @@ function myLinkedList(){
         }
     }
 }
+
+    this.pop = function(){
+        let currentNode = this.head
+        let pointer
+
+        if(!currentNode){
+            return false
+        }else{
+            if(!currentNode.next){
+                return false
+            }else{
+                while(currentNode.next){
+                    pointer = currentNode
+                    currentNode = currentNode.next
+                }
+                pointer.nex = null
+                currentNode = null
+            }
+            this.length--
+        }
+    }
 }
 
-const list = new myLinkedList()
+// const list = new myLinkedList()
 
-list.push('Cauê')
-list.push('Alves')
-list.push('Barreto')
+// list.push('Cauê')
+// list.push('Alves')
+// list.push('Barreto')
 
-list.Print()
+// console.log(list.elemSearch(3))
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+function doublyLinkedList(){
+    this.length = 0;
+    this.head = null;
+
+    function Node(elem, next, last){
+        this.elem = elem;
+        this.next = null;
+        this.last = last;
+    }
+
+    this.size = function(){
+        return console.log(this.length)
+    }
+
+    this.push = function(elem){
+        if(!this.head){
+            let node = new Node(elem, null, this.head)
+        }else{
+            let currentNode = this.head
+            let last = currentNode
+            while(currentNode.next){
+                let prev = currentNode
+                currentNode = currentNode.next
+            }
+            let node = new Node(elem, null, last)
+        }
+        this.length++
+    }
+
+    this.print = function(){
+        if(this.length === 0){
+            return false
+        }
+        let currentNode = this.head
+        while(currentNode){
+            console.log(currentNode.elem)
+            currentNode = currentNode.nex
+        }
+    }
+}
+
+const list = new doublyLinkedList()
+
+list.push(3)
+list.push(5)
+
+list.print()
