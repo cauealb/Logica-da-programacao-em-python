@@ -113,9 +113,18 @@ class linked{
 
         let currentNode = this.head 
         let previus
+        let nextNode
         for(let i = 0; i < index; i++){
-
+            previus = currentNode
+            currentNode = currentNode.next
         }
+        nextNode =currentNode.next
+
+        previus.next = nextNode
+        nextNode.prev = previus
+
+        this.length--
+
     }
 
 }
@@ -125,3 +134,7 @@ let list = new linked()
 list.push(1)
 list.push(2)
 list.push(3)
+
+list.trash(1)
+
+list.print()
