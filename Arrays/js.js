@@ -255,14 +255,55 @@ class linked{
             
             return currentNode.elem
         }
+
+        removeElems(elem){
+            if(!this.head){
+                return false
+            }
+            
+
+            let currentNode = this.head
+            let previus
+            while(currentNode){
+
+                if(currentNode.elem === elem){
+                    previus.next = currentNode.next
+                    currentNode = currentNode.next
+
+                }else{
+                    previus = currentNode
+                    currentNode = currentNode.next
+                }
+
+            }
+            return true
     }
+}
 
 
 const list = new linked()
 
-list.push('Cauê')
-list.push('Alves')
-list.push('Geovanna')
-list.push('Alves')
+list.push(1)
+list.push(2)
+list.push(6)
+list.push(3)
+list.push(4)
+list.push(5)
+list.push(6)
+
+var hasCycle = function(head) {
+
+    let current = head
+    let array = new Array()
+
+    while(current){
+        array.push(current.val)
+    }
+
+    
+
+};
+
+hasCycle(1)
 
 
