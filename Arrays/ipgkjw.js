@@ -1,17 +1,33 @@
+class Stack {
+    constructor(){
+        this.stack = []
+    }
 
-let ds = [1, 2, 2, 4]
-let dr = []
-let cont
-while(ds){
-    dr.unshift(ds[cont])
-}
+    IsEmpty(){
+        return size() === 0
+    }
 
+    push(elem){
+        this.stack.push(elem)
+    }
 
-let contrario = ds.join('')
-let certo = dr.join('')
+    pop(){
+        if(this.IsEmpty()){
+            return false
+        }
 
-if(contrario === certo){
-    return true;
-}else{
-    return false;
+        return this.stack.pop()
+    }
+
+    peek(){
+        if(this.IsEmpty()){
+            return false
+        }
+
+        return this.stack[size() - 1]
+    }
+
+    size(){
+        return this.stack.length
+    }
 }
