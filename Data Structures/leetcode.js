@@ -1,28 +1,33 @@
-function ListNode(val, next) {
-         this.val = (val===undefined ? 0 : val)
-         this.next = (next===undefined ? null : next)
-}
-
-
-const linked = function(head){
-    if(!head){
-        return false
-    }
-    let current = head
-    let cont = 0
-
-    while(current){
-        current = current.next
-        cont++
+class Stack{
+    constructor(){
+        this.stack = []
     }
 
-    let middle = cont / 2
-    let currentNew = head
-
-    for(let i = 0; i < middle; i++){
-        currentNew = current.next
+    size(){
+        return this.stack.length
     }
 
-    return 
+    isEmpyt(){
+        return this.size() === 0
+    }
 
+    push(elem){
+        return this.stack.push(elem)
+    }
+
+    pop(){
+        if(this.isEmpyt()){
+            return 'This Stack is Empty'
+        }
+
+        return this.stack.pop()
+    }
+
+    peek(){
+        if(this.isEmpyt()){
+            return 'This Stack is Empty'
+        }
+
+        return this.stack[this.size() - 1]
+    }
 }
