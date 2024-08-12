@@ -1,33 +1,49 @@
-class Stack {
-    constructor(){
-        this.stack = []
-    }
-
-    IsEmpty(){
-        return size() === 0
-    }
-
-    push(elem){
-        this.stack.push(elem)
-    }
-
-    pop(){
-        if(this.IsEmpty()){
-            return false
+const isValid = function(s){
+    const splitA = s.split('')
+    let array = []
+    let j 
+    for(let i = 0; i < splitA.length; i++){
+    
+        if(splitA[i] === '(' || splitA[i] === '{' || splitA[i] === '['){
+            array.push(splitA[i])
         }
-
-        return this.stack.pop()
-    }
-
-    peek(){
-        if(this.IsEmpty()){
-            return false
+        else{
+            if(array.length === 0){
+                return true;;
+            }
+    
+            j = array.length - 1
+            switch (array[j]){
+                case '(':
+                    if(splitA[i] === ')'){
+                        array.pop()
+                    }else{
+                        return false;
+                    }
+                    break;
+                case '{':
+                    if(splitA[i] === '}'){
+                        array.pop()
+                    }else{
+                        return false;
+                    }
+                    break;
+                case '[':
+                    if(splitA[i] === ']'){
+                        array.pop()
+                    }else{
+                        return false;
+                    }
+                    break;
+                default:
+                    return false;
+            }
         }
-
-        return this.stack[size() - 1]
     }
-
-    size(){
-        return this.stack.length
+    if(j !== 0){
+        return false;
     }
+    return true;
 }
+
+isValid(']')

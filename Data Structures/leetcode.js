@@ -80,7 +80,49 @@ class LinkedList{
             current = current.next
         }
     }
-}
+
+    jjj(elem){
+        const node = new Node(0)
+        let array = []
+        node.next = head;
+        let current = head
+        let num = false;
+        let prev = current
+
+        while(current){
+            if(elem === current.elem){
+                prev.next = current.next
+            }
+            
+        current = current.next
+        }
+    }
+};
+
+const list = new LinkedList()
+
+list.add(1)
+list.add(1)
+list.add(2)
+list.add(3)
+list.add(3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class Stack{
     constructor(){
@@ -118,13 +160,3 @@ class Stack{
 
 }
 
-
-const nn = new Stack()
-
-nn.push(10)
-nn.push(20)
-nn.push(30)
-nn.push(40)
-
-nn.pop()
-nn.print()
