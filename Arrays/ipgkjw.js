@@ -72,9 +72,9 @@ class LinkedListSingly{
             return false
         }
 
-        if(index === 0){
+        if(index === 1){
             node.next = this.head
-            node = this.head
+            this.head = node
             this.length++
             return
         }
@@ -86,9 +86,78 @@ class LinkedListSingly{
             cont++
         }
 
+
+        if(current.next){
+            node.next = current.next
+        }
         current.next = node
-        node.next = current.next.next
         this.length++
+    }
+
+    removeIndex(index){
+        if(this.size() === 0){
+            return false
+        }
+        if(index > this.length || index < 0){
+            return false
+        }
+
+        if(index === 1){
+            this.head = this.head.next
+            this.length--
+            return
+        }
+
+        let current = this.head
+        let prev = current
+        let cont = 1
+        while(cont < index){
+            prev = current
+            current = current.next
+            cont++
+        }
+
+        prev.next = null;
+        if(current.next){
+            prev.next = current.next
+        }
+        this.length--
+    }
+
+    indexSearchElem(index){
+        if(this.size() === 0){
+            return false
+        }
+        if(index > this.length || index < 0){
+            return false
+        }
+
+        let current = this.head
+        for(let i = 1; i < index; i++){
+            current = current.next
+        }
+
+        console.log(current.elem)
+    }
+
+    indexSearch(elem){
+        if(this.size() === 0){
+            return false
+        }
+
+        let current = this.head
+        let cont = 1
+        while(current){
+            if(current.elem === elem){
+                console.log(cont)
+                return
+            }else{
+                current = current.next
+                cont++
+            }
+        }
+
+        console.log('-1')
     }
 };
 
@@ -98,5 +167,4 @@ kiko.push('Cauê')
 kiko.push('Alves')
 kiko.push('Barreto')
 
-kiko.indexAppend(2, 'Geovanna')
-kiko.print()
+kiko.indexSearch('Geovanna')
