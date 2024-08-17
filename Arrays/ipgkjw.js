@@ -1,15 +1,27 @@
-const removeStars = function(s){
+const minAddToMakeValid = function(s){
     const separa = s.split('')
-    let array = []
+    let array = new Array()
+    let antigo
+    let cont = 0
 
     for(let i of separa){
-        if(i !== '*'){
+        if(i === '('){
             array.push(i)
+
         }else{
-            array.pop()
+            if(antigo === '('){
+                array.pop()
+
+            }else{
+                array.push(i)
+
+            }
         }
+        antigo = array[array.length - 1]
     }
+
+    return array.length
 
 }
 
-removeStars('leet**cod*e')
+minAddToMakeValid('()')
