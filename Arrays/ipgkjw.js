@@ -1,51 +1,58 @@
-class Queue{
-    constructor(){
-        this.queue = []
-    }
-
-    enqueue(elem){
-        this.queue.push(elem)
-    }
-
-    dequeue(){
-        if(this.isEmpyt()){
-            return 'false'
-        }
-        this.queue.shift()
-    }
-
-    peek(){
-        if(this.isEmpyt()){
-            return 'false'
-        }
-        
-        return this.queue[0]
-    }
-
-    size(){
-        return this.queue.length
-    }
-
-    isEmpyt(){
-        return this.queue.length === 0
-    }
-
-    print(){
-        return this.queue
+class Node{
+    constructor(elem){
+        this.elem = elem;
+        this.next = null;
     }
 }
 
-const myQueue = new Queue()
+class LinkedList{
+    constructor(){
+        this.head = null;
+        this.length = 0;
+        this.tail = null
+    }
 
-myQueue.enqueue(5)
-myQueue.enqueue(17)
-myQueue.enqueue(3)
-myQueue.enqueue(9)
+    add(elem){
+        const node = new Node(elem)
 
-console.log(myQueue.print())
+        if(!this.head){
+            this.head = node
+            this.tail = node
+            this.length++
+            return
+        }
 
-myQueue.dequeue()
+        let cur = this.head
+        while(cur){
+            cur = cur.next
+        }
 
-console.log(myQueue.print())
+        cur.next = node //O erro começa aqui, corrija!
+        this.tail = node
+        this.length
+    }
 
-console.log(myQueue.peek())
+    rev(){
+        if(this.length === 0){
+            return false
+        }
+
+        if(this.length === 1){
+            this.head = null;
+            this.length--
+            return
+        }
+
+        this.head = this.head.next
+        this.length--
+    }
+}
+const MyLinked = new LinkedList()
+
+MyLinked.add(2)
+MyLinked.add(5)
+MyLinked.add(7)
+MyLinked.add(10)
+MyLinked.add(515)
+
+MyLinked.rev()
