@@ -1,27 +1,51 @@
-const minAddToMakeValid = function(s){
-    const separa = s.split('')
-    let array = new Array()
-    let antigo
-    let cont = 0
-
-    for(let i of separa){
-        if(i === '('){
-            array.push(i)
-
-        }else{
-            if(antigo === '('){
-                array.pop()
-
-            }else{
-                array.push(i)
-
-            }
-        }
-        antigo = array[array.length - 1]
+class Queue{
+    constructor(){
+        this.queue = []
     }
 
-    return array.length
+    enqueue(elem){
+        this.queue.push(elem)
+    }
 
+    dequeue(){
+        if(this.isEmpyt()){
+            return 'false'
+        }
+        this.queue.shift()
+    }
+
+    peek(){
+        if(this.isEmpyt()){
+            return 'false'
+        }
+        
+        return this.queue[0]
+    }
+
+    size(){
+        return this.queue.length
+    }
+
+    isEmpyt(){
+        return this.queue.length === 0
+    }
+
+    print(){
+        return this.queue
+    }
 }
 
-minAddToMakeValid('()')
+const myQueue = new Queue()
+
+myQueue.enqueue(5)
+myQueue.enqueue(17)
+myQueue.enqueue(3)
+myQueue.enqueue(9)
+
+console.log(myQueue.print())
+
+myQueue.dequeue()
+
+console.log(myQueue.print())
+
+console.log(myQueue.peek())
