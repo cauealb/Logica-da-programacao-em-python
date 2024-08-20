@@ -3,56 +3,113 @@ class Node{
         this.elem = elem;
         this.next = null;
     }
-}
+};
 
-class LinkedList{
+class Linked{
     constructor(){
-        this.head = null;
         this.length = 0;
+        this.head = null;
         this.tail = null
     }
 
-    add(elem){
-        const node = new Node(elem)
+    size(){
+        return this.length
+    }
 
-        if(!this.head){
-            this.head = node
-            this.tail = node
-            this.length++
-            return
+    isEmpyt(){
+        return this.length === 0
+    }
+
+    print(){
+        if(this.isEmpyt()){
+            return false
         }
 
         let cur = this.head
         while(cur){
+            console.log(cur.elem)
             cur = cur.next
         }
-
-        cur.next = node //O erro começa aqui, corrija!
-        this.tail = node
-        this.length
     }
 
-    rev(){
-        if(this.length === 0){
+    enqueue(elem){
+        const node = new Node(elem)
+
+        if(!this.head){
+            this.head = node
+            this.length++
+            this.tail = node
+            return
+        }
+
+        this.tail.next = node
+        this.tail = node
+        this.length++
+    }
+
+    dequeue(){
+        if(this.isEmpyt()){
             return false
         }
 
         if(this.length === 1){
             this.head = null;
+            this.tail = null;
             this.length--
-            return
+            return false
         }
 
         this.head = this.head.next
         this.length--
     }
+
+    peek(){
+        if(this.isEmpyt()){
+            return false
+        }
+
+        return this.head.elem
+    }
+
+    cauda(){
+        if(this.isEmpyt()){
+            return false
+        }
+
+        return this.tail.elem
+    }
 }
-const MyLinked = new LinkedList()
 
-MyLinked.add(2)
-MyLinked.add(5)
-MyLinked.add(7)
-MyLinked.add(10)
-MyLinked.add(515)
+class Queue{
+    constructor(){
+        this.fila = new Linked()
+    }
 
-MyLinked.rev()
+    add(elem){
+        return this.fila.enqueue(elem)
+    }
+
+    remove(){
+        this.fila.dequeue()
+    }
+
+    cab(){
+        return this.fila.peek()
+    }
+
+    top(){
+        return this.fila.cauda()
+    }
+
+    ver(){
+        return this.fila.print()
+    }
+}
+
+const my = new Queue()
+
+my.add("Cauê")
+my.add("Alves")
+my.add("Barreto")
+
+my.ver()
