@@ -1,115 +1,42 @@
-class Node{
-    constructor(elem){
-        this.elem = elem;
-        this.next = null;
-    }
-};
-
-class Linked{
+class PQ{
     constructor(){
-        this.length = 0;
-        this.head = null;
-        this.tail = null
-    }
-
-    size(){
-        return this.length
-    }
-
-    isEmpyt(){
-        return this.length === 0
+        this.pq = []
     }
 
     print(){
-        if(this.isEmpyt()){
-            return false
-        }
-
-        let cur = this.head
-        while(cur){
-            console.log(cur.elem)
-            cur = cur.next
-        }
-    }
-
-    enqueue(elem){
-        const node = new Node(elem)
-
-        if(!this.head){
-            this.head = node
-            this.length++
-            this.tail = node
-            return
-        }
-
-        this.tail.next = node
-        this.tail = node
-        this.length++
+        console.log(this.pq)
     }
 
     dequeue(){
-        if(this.isEmpyt()){
-            return false
-        }
-
-        if(this.length === 1){
-            this.head = null;
-            this.tail = null;
-            this.length--
-            return false
-        }
-
-        this.head = this.head.next
-        this.length--
+        return this.pq.shift()
     }
 
-    peek(){
-        if(this.isEmpyt()){
-            return false
+    enqueue(elem){
+        if(this.pq.length === 0){
+            this.pq.push(elem)
+            return
+        }
+        let cont = false
+        for(let i = 0; i < this.pq.length; i++){
+            if(elem[1] < this.pq[i][1]){
+                this.pq.splice(i, 0, elem)
+                cont = true
+                break
+            }
         }
 
-        return this.head.elem
-    }
-
-    cauda(){
-        if(this.isEmpyt()){
-            return false
+        if(!cont){
+            this.pq.push(elem)
         }
-
-        return this.tail.elem
     }
 }
 
-class Queue{
-    constructor(){
-        this.fila = new Linked()
-    }
+const pq = new PQ()
 
-    add(elem){
-        return this.fila.enqueue(elem)
-    }
+pq.enqueue(['Alves', 2])
+pq.enqueue(['Cauê', 1])
+pq.enqueue(['Vasconcelos', 4])
+pq.enqueue(['Geovanna', 3])
 
-    remove(){
-        this.fila.dequeue()
-    }
 
-    cab(){
-        return this.fila.peek()
-    }
-
-    top(){
-        return this.fila.cauda()
-    }
-
-    ver(){
-        return this.fila.print()
-    }
-}
-
-const my = new Queue()
-
-my.add("Cauê")
-my.add("Alves")
-my.add("Barreto")
-
-my.ver()
+pq.print()
