@@ -1,42 +1,41 @@
-class PQ{
-    constructor(){
-        this.pq = []
+function heapFy(arr, length, parentIndex){
+    let largest = parentIndex;
+    let left = parentIndex * 2 + 1;
+    let rigth = left + 1;
+
+    if(left < length && arr[left] < arr[largest]){
+        largest = left;
     }
 
-    print(){
-        console.log(this.pq)
+    if(rigth < length && arr[rigth] < arr[largest]){
+        largest = rigth;
     }
 
-    dequeue(){
-        return this.pq.shift()
+    if(parentIndex !== largest){
+        [arr[largest], arr[parentIndex]] = [arr[parentIndex], arr[largest]];
+
+        heapFy(arr, length, largest);
     }
 
-    enqueue(elem){
-        if(this.pq.length === 0){
-            this.pq.push(elem)
-            return
-        }
-        let cont = false
-        for(let i = 0; i < this.pq.length; i++){
-            if(elem[1] < this.pq[i][1]){
-                this.pq.splice(i, 0, elem)
-                cont = true
-                break
-            }
-        }
-
-        if(!cont){
-            this.pq.push(elem)
-        }
-    }
+    return arr;
 }
 
-const pq = new PQ()
+function heapSort(arr){
+    let length = arr.length;
+    let lastParentNode = Math.floor(length / 2 - 1);
+    let lastChild = length - 1;
 
-pq.enqueue(['Alves', 2])
-pq.enqueue(['Cauê', 1])
-pq.enqueue(['Vasconcelos', 4])
-pq.enqueue(['Geovanna', 3])
+    while(lastParentNode >= 0){
+        heapFy(arr, length, lastParentNode);
+        lastParentNode--;
+    }
 
+    while(lastChild >= 0){
+        heapFy(arr, lastChild, 0);
+        lastChild--;
+    }
 
-pq.print()
+    return arr;
+}
+
+console.log(heapSort([4, 7, 9, 4, 3, 6, 2]))
