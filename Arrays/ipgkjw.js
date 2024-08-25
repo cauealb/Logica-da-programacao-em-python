@@ -1,83 +1,99 @@
-class PQHeap{
+class PQ{
     constructor(){
-        this.heap = []
+        this.queue = []
     }
 
     print(){
-        if(this.heap.length === 0){
-            return false
+        if(this.queue.length === 0){
+            return false;
         }
 
-        for(let index of this.heap){
-            console.log(index[0] + ', priority: ' + index[1])
+        for(let index of this.queue){
+            console.log(index[0], ', priority: ', index[1])
         }
     }
 
     swap(i, j){
-        [this.heap[i], this.heap[j]] = [this.heap[j], this.heap[i]]
+        [this.queue[i], this.queue[j]] = [this.queue[j], this.queue[i]]
     }
 
-    heapFyUp(){
-        let index = this.heap.length - 1
+    heapfyUp(){
+        let index = this.queue.length - 1
+        let parent = Math.floor((index - 1) / 2)
         
-        while(index > 0){
-        let parentIndex = Math.floor((index - 1) / 2)
-            if(this.heap[index][1] < this.heap[parentIndex][1]){
-                break;
-            }
-
-            this.swap(index, parentIndex)
-            index = parentIndex
+        while(index > 0 && this.queue[index][1] > this.queue[parent][1]){
+            this.swap(index, parent)
+            index = parent
+            parent = Math.floor((index - 1) / 2)
         }
     }
 
-    heapFyDown(){
+    heapfyDown(){
         let index = 0
-        const length = this.heap.length
+        let length = this.queue.length
 
         while(true){
-            let left = Math.floor(index * 2 + 1)
+            let left = index * 2 + 1
             let rigth = left + 1
-            let smallest = index
+            let largest = index
 
-            if(left < length && this.heap[left] > this.heap[smallest]){
-                smallest = left
-            }
-            if(rigth < length && this.heap[rigth] > this.heap[smallest]){
-                smallest = rigth
+            if(left < length && this.queue[left][1] > this.queue[largest][1]){
+                largest = left
             }
 
-            if(smallest === index){
+            if(rigth < length && this.queue[rigth][1] > this.queue[largest][1]){
+                largest = rigth
+            }
+
+            if(largest === index){
                 break;
             }
 
-            this.swap(index, smallest)
-            index = smallest
+            this.swap(index, largest)
+            index = largest
         }
     }
 
     enqueue(elem){
-        this.heap.push(elem)
-        this.heapFyUp()
+        this.queue.push(elem)
+        this.heapfyUp()
     }
 
     dequeue(){
-        if(this.heap.length === 0) return false;
-        if(this.heap.length === 1) this.heap.pop();
+        if(this.queue.length === 0) return false;
+        if(this.queue.length === 1) this.queue.pop();
 
-        const peek = this.heap.pop()
-        this.heap[0] = peek
-        this.heapFyDown()
-        return peek
+        let peek = this.queue[0]
+        let last = this.queue.pop()
+        if(this.queue.length > 0){
+            this.queue[0] = last
+            this.heapfyDown()
+        }
+    }
+
+    increasePriority(elem){
+        const index = this.queue.findIndex(i => i[0] === elem[0])
+        
+        if(index === -1){
+            return false
+        }
+
+        if(elem[1] > this.queue[index][1]){
+            this.queue[index][1] = elem[1]
+            this.heapfyDown()
+        }
     }
 }
 
-const heap = new PQHeap()
+const qp = new PQ()
 
-heap.enqueue(['Cauê', 2])
-heap.enqueue(['Geovanna', 3])
-heap.enqueue(['Alves', 5])
-heap.enqueue(['Safira', 7])
-heap.enqueue(['Vasconscelos', 1])
+qp.enqueue(['Cauê', 5])
+qp.enqueue(['Geovanna', 2])
+qp.enqueue(['Alves', 1])
+qp.enqueue(['Vasconscelos', 4])
+// Cauê, Vasconcelos, Geovanna, Alves
+qp.increasePriority(['Alves', 7])
+qp.increasePriority(['Cauê', 6])
+qp.increasePriority(['Geovanna', 1])
 
-heap.print()
+qp.print()
