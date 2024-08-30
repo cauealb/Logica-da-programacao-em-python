@@ -1,41 +1,40 @@
-class UnionFind{
+class Uniao{
     constructor(size){
-        this.parent = new Array(size).fill(0).map((_, index) => index)
+        this.arr = new Array(size).fill(1).map((_, index) => index)
         this.rank = new Array(size).fill(1)
     }
 
     find(x){
-        if(this.parent[x] !== x){
-            this.parent[x] = this.find(this.parent[x])
+        if(this.arr[x] !== x){
+            this.arr[x] = this.find(this.arr[x])
         }
-        return this.parent[x];
+        return this.arr[x]
     }
 
     union(x, y){
-        const rootX = this.find(x)
-        const rootY = this.find(y)
+        const raizX = this.find(x)
+        const raizY = this.find(y)
 
-        if(rootX !== rootY){
-            if(this.rank[rootX] > this.rank[rootY]){
-                this.parent[rootY] = rootX
-            } else if(this.rank[rootX] < this.rank[rootY]){
-                this.parent[rootX] = rootY 
-            } else{
-                this.parent[rootX] = rootY
-                this.rank[rootY] += 1
+        if(raizX !== raizY){
+            if(this.rank[raizX] > this.rank[raizY]){
+                this.arr[raizY] = raizX
+            } else if(this.rank[raizX] < this.rank[raizY]){
+                this.arr[raizX] = raizY
+            }else{
+                this.arr[raizY] = raizX
+                this.rank[raizX] += 1
             }
         }
     }
 
     connected(x, y){
-        return this.find[x] === this.find[y]
+        return this.find(x) === this.find(y)
     }
 }
 
-const un = new UnionFind(6)
+const uu = new Uniao(11)
 
-un.union(1, 5)
-un.union(3, 4)
-un.union(5, 4)
+uu.union(1, 5)
+uu.union(5, 10);
 
-console.log(un.find(3))
+console.log(uu.find(10))
