@@ -1,6 +1,6 @@
 class UnionFind{
     constructor(size){
-        this.parent = new Array(size) .fill(0).map((_, index) => index)
+        this.parent = new Array(size).fill(0).map((_, index) => index)
         this.rank = new Array(size).fill(1)
     }
 
@@ -8,35 +8,34 @@ class UnionFind{
         if(this.parent[x] !== x){
             this.parent[x] = this.find(this.parent[x])
         }
-
-        return this.parent[x]
+        return this.parent[x];
     }
 
     union(x, y){
-        const raizX = this.find(x)
-        const raizY = this.find(y)
+        const rootX = this.find(x)
+        const rootY = this.find(y)
 
-        if(raizX !== raizY){
-            if(this.rank[raizX] > this.parent[raizY]){
-                this.parent[raizY] = raizX
-            } else if(this.rank[raizX] < this.parent[raizY]){
-                this.parent[raizX] = raizY
+        if(rootX !== rootY){
+            if(this.rank[rootX] > this.rank[rootY]){
+                this.parent[rootY] = rootX
+            } else if(this.rank[rootX] < this.rank[rootY]){
+                this.parent[rootX] = rootY 
             } else{
-                this.parent[raizY] = raizX
-                this.rank[raizY] += 1
+                this.parent[rootX] = rootY
+                this.rank[rootY] += 1
             }
         }
     }
 
     connected(x, y){
-        return this.find(x) === this.find(y)
+        return this.find[x] === this.find[y]
     }
 }
 
-const union = new UnionFind(5)
+const un = new UnionFind(6)
 
-union.union(1, 2);
-union.union(2, 3);
+un.union(1, 5)
+un.union(3, 4)
+un.union(5, 4)
 
-union.connected(1, 3)
-
+console.log(un.find(3))
