@@ -1,0 +1,32 @@
+[
+    {
+        "nome": "Cauê",
+        "profissao": "Programador",
+        "idade": 18,
+        "hobbie": ["Programar", "Ler", "Exercitar-se", "Estudar"],
+        "casado": false,
+        "detalhesProfissao": {
+            "setor": "Full-Stack Developer",
+            "exp": "7 meses",
+            "efetivado": false,
+            "Junior": true,
+            "Pleno": false,
+            "Senior": false
+        }
+        
+    },
+    {
+        "nome": "Cleide",
+        "profissao": "Educadora",
+        "idade": 51,
+        "hobbie": ["Assistir filmes", "Exercitar-se"],
+        "casado": false
+    },
+    {
+        "nome": "Inaldo",
+        "profissao": "Aposentado",
+        "idade": 65,
+        "hobbie": null,
+        "casado": true
+    }
+]

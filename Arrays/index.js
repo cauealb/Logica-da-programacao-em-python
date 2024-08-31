@@ -147,7 +147,7 @@
 // console.log(sumAll)
 
 
-const arr = ['Youtube', 'Instagram', 'Facebook', 'Tiktok']
+// const arr = ['Youtube', 'Instagram', 'Facebook', 'Tiktok']
 
 // const nome = arr.forEach(function(bigT){
 //     console.log(bigT)
@@ -234,3 +234,82 @@ const arr = ['Youtube', 'Instagram', 'Facebook', 'Tiktok']
 // const peg = document.querySelectorAll('.text')
 
 // console.log(peg)
+
+
+
+const obj = [
+    {
+        "nome": "Cauê",
+        "profissao": "Programador",
+        "idade": 18,
+        "hobbie": ["Programar", "Ler", "Exercitar-se", "Estudar"],
+        "casado": false,
+        "detalhesProfissao": {
+            "setor": "Full-Stack Developer",
+            "exp": "7 meses",
+            "efetivado": false,
+            "Junior": true,
+            "Pleno": false,
+            "Senior": false
+        }
+        
+    },
+    {
+        "nome": "Cleide",
+        "profissao": "Educadora",
+        "idade": 51,
+        "hobbie": ["Assistir filmes", "Exercitar-se"],
+        "casado": false
+    },
+    {
+        "nome": "Inaldo",
+        "profissao": "Aposentado",
+        "idade": 65,
+        "hobbie": null,
+        "casado": true
+    }
+]
+
+const jsonData = JSON.stringify(obj)
+
+// console.log(jsonData)
+// console.log(typeof jsonData)
+
+
+const objData = JSON.parse(jsonData)
+// console.log(objData)
+// console.log(typeof objData)
+
+
+objData.map((name) => {
+    console.log(name.nome)
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
