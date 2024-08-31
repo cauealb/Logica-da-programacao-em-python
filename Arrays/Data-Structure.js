@@ -22,7 +22,7 @@ class Uniao{
                 this.arr[raizX] = raizY
             }else{
                 this.arr[raizY] = raizX
-                this.rank[raizX] += 1
+                this.rank[raizX] += 1 
             }
         }
     }
