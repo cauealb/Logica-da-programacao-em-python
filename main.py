@@ -1,15 +1,25 @@
 '''
+76) Crie um programa que preencha automaticamente um vetor numérico com 7
+números gerados aleatoriamente pelo computador e depois mostre os valores
+gerados na tela.
 
+pseudocódigo:
 
+- criar array
 
+- loop de 0 a 7:
+    - gera valor aleatorio
+    - inclui no indice o valor
+
+exibir valores
 '''
 
-arr = [0] * 15
+import random
 
-arr[0] = 1
-arr[1] = 1
+arr = [0] * 7
 
-for i in range(2, 15):
-    arr[i] = arr[i - 1] + arr[i - 2]
+for i in range(7):
+    num = random.randint(1, 50)
+    arr[i] = num
 
 print(arr)
