@@ -1,19 +1,23 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 int main()
 {
-    printf("Olá, tenho 19 anos e programo.\n");
+    int idade = 19;
+    char resposta;
 
-    printf("Valor do inteiro: %d. \n", 10);
+    printf("Valor inicial da idade é: %d.\n\n", idade);
+    printf("Esse valor está certo (S/N): ");
+    scanf("%c", &resposta);
 
-    printf("Valor flutuante: %f. \n", 12.43874763);
+    printf("\n\n");
+    if (resposta == 'N')
+    {
+        printf("Digite a idade correta: ");
+        scanf("%d", &idade);
 
-    printf("Valor flutuante com duas casa deciamais: %.2f. \n", 12.43874763);
+        printf("\n\n");
+        printf("Sua idade agora é %d. \n", idade);
+    }
 
-    printf("Valor char: %c. \n", 'c');
-
-    printf("Valor string: %s. \n", "Cauê");
-
-    system("pause");
+    return 0;
 }
