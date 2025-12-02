@@ -1,19 +1,21 @@
 #include <stdio.h>
-#include <math.h>
 
 int main(void)
 {
-    int num = 0;
-    double raiz;
+    float nota1, nota2, nota3, media, soma;
 
-    printf("Digite um número: ");
-    scanf("%d", &num);
+    printf("Nota 1: ");
+    scanf("%f", &nota1);
 
-    raiz = sqrt(num);
+    printf("Nota 2: ");
+    scanf("%f", &nota2);
 
-    printf("Dobro: %d.\n", num * 2);
-    printf("Triplo: %d.\n", num * 3);
-    printf("Raiz quadrada: %lf.\n", raiz);
+    printf("Nota 3: ");
+    scanf("%f", &nota3);
+
+    soma = nota1 + nota2 + nota3;
+    media = soma / 3;
+    printf("Media: %.2f\n", media);
 
     return 0;
 }
