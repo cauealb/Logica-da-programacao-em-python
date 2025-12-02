@@ -1,23 +1,19 @@
 #include <stdio.h>
+#include <math.h>
 
-int main()
+int main(void)
 {
-    int idade = 19;
-    char resposta;
+    int num = 0;
+    double raiz;
 
-    printf("Valor inicial da idade é: %d.\n\n", idade);
-    printf("Esse valor está certo (S/N): ");
-    scanf("%c", &resposta);
+    printf("Digite um número: ");
+    scanf("%d", &num);
 
-    printf("\n\n");
-    if (resposta == 'N')
-    {
-        printf("Digite a idade correta: ");
-        scanf("%d", &idade);
+    raiz = sqrt(num);
 
-        printf("\n\n");
-        printf("Sua idade agora é %d. \n", idade);
-    }
+    printf("Dobro: %d.\n", num * 2);
+    printf("Triplo: %d.\n", num * 3);
+    printf("Raiz quadrada: %lf.\n", raiz);
 
     return 0;
 }
