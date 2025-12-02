@@ -1,21 +1,40 @@
 #include <stdio.h>
+#include <math.h>
 
 int main(void)
 {
-    float nota1, nota2, nota3, media, soma;
+    float altura, peso, imc;
 
-    printf("Nota 1: ");
-    scanf("%f", &nota1);
+    printf("Altura: ");
+    scanf("%f", &altura);
 
-    printf("Nota 2: ");
-    scanf("%f", &nota2);
+    printf("Peso: ");
+    scanf("%f", &peso);
 
-    printf("Nota 3: ");
-    scanf("%f", &nota3);
+    imc = peso / (altura * altura);
 
-    soma = nota1 + nota2 + nota3;
-    media = soma / 3;
-    printf("Media: %.2f\n", media);
+    if(imc < 18.5)
+    {
+        printf("Abaixo do peso.");
+    }
+    else if(imc < 25)
+    {
+        printf("Peso ideal.");
+    }
+    else if(imc < 30)
+    {
+        printf("Sobrepeso.");
+    }
+    else if(imc < 40)
+    {
+        printf("Obesidade.");
+    }
+    else
+    {
+        printf("Obesidade mórbida.");
+    }
 
+    printf("\n");
+    printf("%f", imc);
     return 0;
 }
