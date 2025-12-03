@@ -3,30 +3,30 @@
 
 int main(void)
 {
-    int num, pares = 0, impares = 0;
+    int num;
 
-    while(true)
+    printf("Número: ");
+    scanf("%d", &num);
+
+    if (num <= 0)
     {
-        printf("Digite o número: ");
-        scanf("%d", &num);
+        return 0;
+    }
 
-        if(num == 0)
+    int total = 1;
+    for(int i = num; i >= 1; i--)
+    {
+        if(i == 1)
         {
-            break;
-        }
-
-        if(num % 2 == 0)
-        {
-            pares++;
+            printf("%d = ", i);
         }
         else
         {
-            impares++;
+            printf("%d x ", i);
         }
-
+        total *= i;
     }
 
-    printf("%d pares\n", pares);
-    printf("%d impares\n", impares);
+    printf("%d\n", total);
     return 0;
 }
