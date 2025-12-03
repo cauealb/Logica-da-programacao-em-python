@@ -1,26 +1,27 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-bool ParOuImpar(int n);
+void ValidarMaior(int num, int *maior);
 
 int main(void)
 {
-    int num;
+    int num = -1, maior = 0;
 
-    printf("Digite um número: ");
-    scanf("%d", &num);
-
-    if(ParOuImpar(num))
+    while(num != 0)
     {
-        printf("PAR\n");
-        return 0;
+        printf("Número: ");
+        scanf("%d", &num);
+
+        ValidarMaior(num, &maior);
     }
 
-    printf("IMPAR\n");
-    return 0;
+    printf("O maior é: %d\n", maior);
 }
 
-bool ParOuImpar(int n)
+void ValidarMaior(int num, int *maior)
 {
-    return n % 2 == 0;
+    if(num > *maior)
+    {
+        *maior = num;
+    }
 }
