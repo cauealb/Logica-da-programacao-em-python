@@ -3,13 +3,15 @@
 int main(void)
 {
     int num;
-    printf("Digite o número da tabuda: ");
+    printf("Digite o número: ");
     scanf("%d", &num);
 
-    for(int i = 1; i <= 10; i++)
+    int cont = 0;
+    for(int i = 1; i <= num; i++)
     {
-        printf("%d x %d = %d\n", num, i, num * i);
+        cont += i;
     }
 
+    printf("Soma total: %d", cont);
     return 0;
 }
