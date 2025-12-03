@@ -1,40 +1,15 @@
 #include <stdio.h>
-#include <math.h>
 
 int main(void)
 {
-    float altura, peso, imc;
+    int num;
+    printf("Digite o número da tabuda: ");
+    scanf("%d", &num);
 
-    printf("Altura: ");
-    scanf("%f", &altura);
-
-    printf("Peso: ");
-    scanf("%f", &peso);
-
-    imc = peso / (altura * altura);
-
-    if(imc < 18.5)
+    for(int i = 1; i <= 10; i++)
     {
-        printf("Abaixo do peso.");
-    }
-    else if(imc < 25)
-    {
-        printf("Peso ideal.");
-    }
-    else if(imc < 30)
-    {
-        printf("Sobrepeso.");
-    }
-    else if(imc < 40)
-    {
-        printf("Obesidade.");
-    }
-    else
-    {
-        printf("Obesidade mórbida.");
+        printf("%d x %d = %d\n", num, i, num * i);
     }
 
-    printf("\n");
-    printf("%f", imc);
     return 0;
 }
