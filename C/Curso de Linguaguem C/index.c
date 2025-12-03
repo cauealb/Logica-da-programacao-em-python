@@ -4,35 +4,40 @@
 int main(void)
 {
     float media;
-    int total = 0;
-    int cont = 0;
-    int num = -1;
+    int num, maior, menor;
+    int cont = 1;
     bool parar = false;
 
     while(parar == false)
     {
-        printf("Digite o número: ");
+        printf("Digite o número %d: ", cont);
         scanf("%d", &num);
 
-        if (num == 0)
+        if(num == 0)
         {
             parar = true;
             continue;
         }
 
-        total += num;
+        if(cont == 1)
+        {
+            menor = num;
+            maior = num;
+        }
+
+        if(num < menor)
+        {
+            menor = num;
+        }
+
+        if (num > maior)
+        {
+            maior = num;
+        }
+
         cont++;
     }
 
-    if (cont == 0)
-    {
-        media = 0;
-    }
-    else
-    {
-        media = (float) total / cont;
-    }
-
-    printf("A média é %.2f", media);
+    printf("O maior será o %d e o menor será %d.\n", maior, menor);
     return 0;
 }
