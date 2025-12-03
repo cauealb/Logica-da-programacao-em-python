@@ -3,41 +3,30 @@
 
 int main(void)
 {
-    float media;
-    int num, maior, menor;
-    int cont = 1;
-    bool parar = false;
+    int num, pares = 0, impares = 0;
 
-    while(parar == false)
+    while(true)
     {
-        printf("Digite o número %d: ", cont);
+        printf("Digite o número: ");
         scanf("%d", &num);
 
         if(num == 0)
         {
-            parar = true;
-            continue;
+            break;
         }
 
-        if(cont == 1)
+        if(num % 2 == 0)
         {
-            menor = num;
-            maior = num;
+            pares++;
         }
-
-        if(num < menor)
+        else
         {
-            menor = num;
+            impares++;
         }
 
-        if (num > maior)
-        {
-            maior = num;
-        }
-
-        cont++;
     }
 
-    printf("O maior será o %d e o menor será %d.\n", maior, menor);
+    printf("%d pares\n", pares);
+    printf("%d impares\n", impares);
     return 0;
 }
