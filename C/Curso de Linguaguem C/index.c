@@ -1,17 +1,38 @@
 #include <stdio.h>
+#include <stdbool.h>
 
 int main(void)
 {
-    int num;
-    printf("Digite o número: ");
-    scanf("%d", &num);
-
+    float media;
+    int total = 0;
     int cont = 0;
-    for(int i = 1; i <= num; i++)
+    int num = -1;
+    bool parar = false;
+
+    while(parar == false)
     {
-        cont += i;
+        printf("Digite o número: ");
+        scanf("%d", &num);
+
+        if (num == 0)
+        {
+            parar = true;
+            continue;
+        }
+
+        total += num;
+        cont++;
     }
 
-    printf("Soma total: %d", cont);
+    if (cont == 0)
+    {
+        media = 0;
+    }
+    else
+    {
+        media = (float) total / cont;
+    }
+
+    printf("A média é %.2f", media);
     return 0;
 }
