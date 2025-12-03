@@ -1,32 +1,26 @@
 #include <stdio.h>
 #include <stdbool.h>
 
+bool ParOuImpar(int n);
+
 int main(void)
 {
     int num;
 
-    printf("Número: ");
+    printf("Digite um número: ");
     scanf("%d", &num);
 
-    if (num <= 0)
+    if(ParOuImpar(num))
     {
+        printf("PAR\n");
         return 0;
     }
 
-    int total = 1;
-    for(int i = num; i >= 1; i--)
-    {
-        if(i == 1)
-        {
-            printf("%d = ", i);
-        }
-        else
-        {
-            printf("%d x ", i);
-        }
-        total *= i;
-    }
-
-    printf("%d\n", total);
+    printf("IMPAR\n");
     return 0;
+}
+
+bool ParOuImpar(int n)
+{
+    return n % 2 == 0;
 }
